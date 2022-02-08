@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"theme-next.js.org","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.10.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.json","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.10.0/source/js/config.min.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"theme-next.js.org","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.10.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.json","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.10.0/source/js/config.min.js"></script>
 
   <meta name="description" content="NexT User Docs – Starting to Use — Deployment">
 <meta property="og:type" content="website">
@@ -28,7 +28,7 @@
 <meta property="og:url" content="https://theme-next.js.org/docs/getting-started/deployment.html">
 <meta property="og:site_name" content="NexT">
 <meta property="og:description" content="NexT User Docs – Starting to Use — Deployment">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-02-08T08:40:19.182Z">
 <meta property="article:modified_time" content="2022-02-08T06:52:01.000Z">
 <meta property="article:author" content="John Doe">
@@ -40,7 +40,7 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"en","comments":true,"permalink":"https://theme-next.js.org/docs/getting-started/deployment.html","path":"docs/getting-started/deployment.html","title":"Deployment"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":true,"permalink":"https://theme-next.js.org/docs/getting-started/deployment.html","path":"docs/getting-started/deployment.html","title":"Deployment"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
 <title>Deployment | NexT
@@ -58,7 +58,7 @@
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
 <link rel="alternate" href="/atom.xml" title="NexT" type="application/atom+xml">
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
@@ -67,7 +67,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+    <div class="toggle" aria-label="切换导航栏" role="button">
         <span class="toggle-line"></span>
         <span class="toggle-line"></span>
         <span class="toggle-line"></span>
@@ -81,7 +81,6 @@
       <p class="site-title">NexT</p>
       <i class="logo-line"></i>
     </a>
-      <p class="site-subtitle" itemprop="description">Theme for Hexo</p>
   </div>
 
   <div class="site-nav-right">
@@ -95,7 +94,7 @@
 
 <nav class="site-nav">
   <ul class="main-menu menu">
-        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-bell fa-fw"></i>Home</a></li>
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-bell fa-fw"></i>首页</a></li>
         
             
   <li class="menu-item menu-item-docs"><a href="/docs/" rel="section"><i class="fa fa-book fa-fw"></i>Docs</a></li>
@@ -103,9 +102,10 @@
 
       
         <li class="menu-item menu-item-plugins"><a href="/plugins/" rel="section"><i class="fa fa-flask fa-fw"></i>Plugins</a></li>
-        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">58</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>博客<span class="badge">58</span></a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-fw fa-th fa-fw"></i>分类<span class="badge">0</span></a></li>
       <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
       </li>
   </ul>
@@ -120,7 +120,7 @@
   </span>
   <div class="search-input-container">
     <input autocomplete="off" autocapitalize="off" maxlength="80"
-           placeholder="Searching..." spellcheck="false"
+           placeholder="搜索..." spellcheck="false"
            type="search" class="search-input">
   </div>
   <span class="popup-btn-close" role="button">
@@ -150,10 +150,10 @@
     <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          站点概览
         </li>
       </ul>
 
@@ -166,17 +166,17 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Theme NexT"
+    <img class="site-author-image" itemprop="image" alt="John Doe"
       src="/images/logo.svg">
-  <p class="site-author-name" itemprop="name">Theme NexT</p>
-  <div class="site-description" itemprop="description">Stay Simple. Stay NexT.</div>
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
           <span class="site-state-item-count">58</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
   </nav>
@@ -208,7 +208,7 @@
     </header>
 
     
-  <div class="back-to-top" role="button" aria-label="Back to top">
+  <div class="back-to-top" role="button" aria-label="返回顶部">
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
@@ -315,9 +315,9 @@
     
     
     
-    <div class="post-block" lang="en"><header class="post-header">
+    <div class="post-block" lang="zh-CN"><header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">Deployment<span class="exturl post-edit-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvdGhlbWUtbmV4dC1kb2NzL2VkaXQvbWFzdGVyL3NvdXJjZS9kb2NzL2dldHRpbmctc3RhcnRlZC9kZXBsb3ltZW50Lm1k" title="Edit this post"><i class="fa fa-pen-nib"></i></span>
+<h1 class="post-title" itemprop="name headline">Deployment<span class="exturl post-edit-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvdGhlbWUtbmV4dC1kb2NzL2VkaXQvbWFzdGVyL3NvdXJjZS9kb2NzL2dldHRpbmctc3RhcnRlZC9kZXBsb3ltZW50Lm1k" title="编辑"><i class="fa fa-pen-nib"></i></span>
 </h1>
 
 <div class="post-meta-container">
@@ -359,22 +359,116 @@
 <li><p>Create an empty branch of <code>source</code> in the repository where the blog source is hosted.</p>
 </li>
 <li><p>Generate a ssh key</p>
-  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -b 4096 -C &quot;&#123;email&#125;&quot; -f ~/.ssh/deploy_key</span><br></pre></td></tr></table></figure>
+<pre class=" language-git"><code class="language-git">$ ssh-keygen -t rsa -b 4096 -C <span class="token string">"{email}"</span> -f ~/.ssh/deploy_key
+</code></pre>
 </li>
 <li><p>Add the deployment public key in your repo, and delete it</p>
-  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ rm -f deploy_key.pub</span><br></pre></td></tr></table></figure>
+<pre class=" language-git"><code class="language-git">$ rm -f deploy_key.pub
+</code></pre>
 </li>
 <li><p>Use the Travis command to encrypt private key, and add it to git</p>
-  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ gem install travis</span><br><span class="line">$ travis login</span><br><span class="line">$ travis encrypt deploy_key</span><br><span class="line">$ rm -f deploy_key</span><br><span class="line">$ git add deploy_key.enc</span><br></pre></td></tr></table></figure></li>
-</ul></div></div></div></div><div class="tab-pane" id="travis-ci-2"><figure class="highlight yml"><figcaption><span>hexo/.travis.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">dist:</span> <span class="string">trusty</span></span><br><span class="line"><span class="attr">sudo:</span> <span class="string">required</span></span><br><span class="line"></span><br><span class="line"><span class="attr">addons:</span></span><br><span class="line"> <span class="attr">ssh_known_hosts:</span></span><br><span class="line">   <span class="bullet">-</span> <span class="string">github.com</span></span><br><span class="line">   <span class="bullet">-</span> <span class="string">git.coding.net</span></span><br><span class="line"> <span class="attr">apt:</span></span><br><span class="line">   <span class="attr">packages:</span></span><br><span class="line">     <span class="bullet">-</span> <span class="string">nasm</span></span><br><span class="line"></span><br><span class="line"><span class="attr">env:</span></span><br><span class="line"> <span class="attr">global:</span></span><br><span class="line">   <span class="bullet">-</span> <span class="string">TZ=Asia/Tokyo</span></span><br><span class="line"></span><br><span class="line"><span class="attr">language:</span> <span class="string">node_js</span></span><br><span class="line"><span class="attr">node_js:</span> <span class="string">node</span></span><br><span class="line"></span><br><span class="line"><span class="attr">branches:</span></span><br><span class="line"> <span class="attr">only:</span></span><br><span class="line">   <span class="bullet">-</span> <span class="string">source</span></span><br><span class="line"></span><br><span class="line"><span class="attr">git:</span></span><br><span class="line"> <span class="attr">depth:</span> <span class="literal">false</span></span><br><span class="line"> <span class="attr">submodules:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="attr">cache:</span></span><br><span class="line"> <span class="attr">apt:</span> <span class="literal">true</span></span><br><span class="line"> <span class="attr">npm:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="attr">before_install:</span></span><br><span class="line"> <span class="comment"># Git Config</span></span><br><span class="line"> <span class="bullet">-</span> <span class="string">sed</span> <span class="string">-i</span> <span class="string">&#x27;s/git@github.com:/https:\/\/github.com\//&#x27;</span> <span class="string">.gitmodules</span></span><br><span class="line"> <span class="bullet">-</span> <span class="string">git</span> <span class="string">config</span> <span class="string">--global</span> <span class="string">user.name</span> <span class="string">&quot;YOUR-GITHUB-NAME&quot;</span></span><br><span class="line"> <span class="bullet">-</span> <span class="string">git</span> <span class="string">config</span> <span class="string">--global</span> <span class="string">user.email</span> <span class="string">&quot;YOUR-EMAIL&quot;</span></span><br><span class="line"></span><br><span class="line"> <span class="comment"># Restore last modified time</span></span><br><span class="line"> <span class="bullet">-</span> <span class="string">&quot;git ls-files -z | while read -d &#x27;&#x27; path; do touch -d \&quot;$(git log -1 --format=\&quot;@%ct\&quot; \&quot;$path\&quot;)\&quot; \&quot;$path\&quot;; done&quot;</span></span><br><span class="line"></span><br><span class="line"> <span class="comment"># Submodules</span></span><br><span class="line"> <span class="bullet">-</span> <span class="string">git</span> <span class="string">submodule</span> <span class="string">update</span> <span class="string">--recursive</span> <span class="string">--remote</span> <span class="string">--init</span></span><br><span class="line"></span><br><span class="line"> <span class="comment"># Deploy history</span></span><br><span class="line"> <span class="bullet">-</span> <span class="string">git</span> <span class="string">clone</span> <span class="string">--branch=master</span> <span class="string">--single-branch</span> <span class="string">YOUR-BLOG-REPO</span> <span class="string">.deploy_git</span></span><br><span class="line"></span><br><span class="line"> <span class="comment"># SSH Setup</span></span><br><span class="line"> <span class="bullet">-</span> <span class="string">openssl</span> <span class="string">aes-256-cbc</span> <span class="string">-K</span> <span class="string">$encrypted_693585a97b8c_key</span> <span class="string">-iv</span> <span class="string">$encrypted_693585a97b8c_iv</span> <span class="string">-in</span> <span class="string">deploy_key.enc</span> <span class="string">-out</span> <span class="string">deploy_key</span> <span class="string">-d</span></span><br><span class="line"> <span class="bullet">-</span> <span class="string">eval</span> <span class="string">&quot;$(ssh-agent -s)&quot;</span></span><br><span class="line"> <span class="bullet">-</span> <span class="string">chmod</span> <span class="number">600</span> <span class="string">./deploy_key</span></span><br><span class="line"> <span class="bullet">-</span> <span class="string">ssh-add</span> <span class="string">./deploy_key</span></span><br><span class="line"></span><br><span class="line"><span class="attr">install:</span> <span class="string">npm</span> <span class="string">install</span></span><br><span class="line"></span><br><span class="line"><span class="attr">before_script:</span></span><br><span class="line"></span><br><span class="line"><span class="attr">script:</span></span><br><span class="line"> <span class="bullet">-</span> <span class="string">hexo</span> <span class="string">clean</span></span><br><span class="line"> <span class="bullet">-</span> <span class="string">hexo</span> <span class="string">g</span> <span class="string">-d</span></span><br></pre></td></tr></table></figure></div></div></div>
+<pre class=" language-git"><code class="language-git">$ gem install travis
+$ travis login
+$ travis encrypt deploy_key
+$ rm -f deploy_key
+<span class="token command">$ git add deploy_key.enc</span>
+</code></pre>
+</li>
+</ul></div></div></div></div><div class="tab-pane" id="travis-ci-2"><pre class=" language-yml"><code class="language-yml">dist: trusty
+sudo: required
+
+addons:
+ ssh_known_hosts:
+   - github.com
+   - git.coding.net
+ apt:
+   packages:
+     - nasm
+
+env:
+ global:
+   - TZ=Asia/Tokyo
+
+language: node_js
+node_js: node
+
+branches:
+ only:
+   - source
+
+git:
+ depth: false
+ submodules: false
+
+cache:
+ apt: true
+ npm: true
+
+before_install:
+ # Git Config
+ - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+ - git config --global user.name "YOUR-GITHUB-NAME"
+ - git config --global user.email "YOUR-EMAIL"
+
+ # Restore last modified time
+ - "git ls-files -z | while read -d '' path; do touch -d \"$(git log -1 --format=\"@%ct\" \"$path\")\" \"$path\"; done"
+
+ # Submodules
+ - git submodule update --recursive --remote --init
+
+ # Deploy history
+ - git clone --branch=master --single-branch YOUR-BLOG-REPO .deploy_git
+
+ # SSH Setup
+ - openssl aes-256-cbc -K $encrypted_693585a97b8c_key -iv $encrypted_693585a97b8c_iv -in deploy_key.enc -out deploy_key -d
+ - eval "$(ssh-agent -s)"
+ - chmod 600 ./deploy_key
+ - ssh-add ./deploy_key
+
+install: npm install
+
+before_script:
+
+script:
+ - hexo clean
+ - hexo g -d
+</code></pre></div></div></div>
 
 <h4 id="Gitlab-CI"><a href="#Gitlab-CI" class="headerlink" title="Gitlab CI"></a>Gitlab CI</h4><p>GitLab offers a continuous integration service and pages service. If you add a <code>.gitlab-ci.yml</code> file to the root directory of your repository, and configure your GitLab project to use a Runner, then each commit or push, triggers your CI pipeline. The <code>.gitlab-ci.yml</code> file tells the GitLab runner what to do. By default it runs a pipeline with three stages: build, test, and deploy. You don&#39;t need to use all three stages; stages with no jobs are simply ignored. And at the end, your websites will be published on GitLab Host automatically.</p>
 <ol>
 <li><p>Add <code>.gitlab-ci.yml</code> to the root directory of your repository, and configure it.</p>
- <figure class="highlight yml"><figcaption><span>hexo/.gitlab-ci.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">image:</span> <span class="string">node:lts</span></span><br><span class="line"></span><br><span class="line"><span class="attr">before_script:</span></span><br><span class="line">  <span class="comment"># Set TimeZone, eg: Asia/Shanghai</span></span><br><span class="line">  <span class="comment"># - export TZ=&#x27;Asia/Shanghai&#x27;</span></span><br><span class="line">  <span class="comment"># Restore last modified time</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">&quot;git ls-files -z | while read -d &#x27;&#x27; path; do touch -d \&quot;$(git log -1 --format=\&quot;@%ct\&quot; \&quot;$path\&quot;)\&quot; \&quot;$path\&quot;; done&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="attr">pages:</span></span><br><span class="line">  <span class="attr">stage:</span> <span class="string">build</span></span><br><span class="line">  <span class="attr">cache:</span></span><br><span class="line">    <span class="attr">paths:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">node_modules/</span></span><br><span class="line">  <span class="attr">script:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">npm</span> <span class="string">install</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">npx</span> <span class="string">hexo</span> <span class="string">deploy</span></span><br><span class="line">  <span class="attr">artifacts:</span></span><br><span class="line">    <span class="attr">paths:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">public</span></span><br><span class="line">  <span class="attr">only:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
+<pre class=" language-yml"><code class="language-yml">image: node:lts
+
+before_script:
+  # Set TimeZone, eg: Asia/Shanghai
+  # - export TZ='Asia/Shanghai'
+  # Restore last modified time
+  - "git ls-files -z | while read -d '' path; do touch -d \"$(git log -1 --format=\"@%ct\" \"$path\")\" \"$path\"; done"
+
+pages:
+  stage: build
+  cache:
+    paths:
+    - node_modules/
+  script:
+  - npm install
+  - npx hexo deploy
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+</code></pre>
 </li>
 <li><p>Upload <code>scaffolds</code>, <code>source</code>, <code>themes</code>, <code>.gitignore</code>, <code>.gitlab-ci.yml</code>, <code>_config.yml</code>, and <code>package.json</code> to <span class="exturl" data-url="aHR0cHM6Ly9naXRsYWIuY29tLw==">your Gitlab repository<i class="fa fa-external-link-alt"></i></span>.</p>
- <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ git init</span><br><span class="line">$ ssh -T git@gitlab.com</span><br><span class="line">$ git remote add origin YOUR-GITLAB-REPO-SSH-LINK</span><br><span class="line">$ git add .</span><br><span class="line">$ git commit -m &quot;COMMIT MESSAGE&quot;</span><br><span class="line">$ git push -u origin master</span><br></pre></td></tr></table></figure></li>
+<pre class=" language-git"><code class="language-git"><span class="token command">$ git init</span>
+$ ssh -T git@gitlab.com
+<span class="token command">$ git remote add origin YOUR-GITLAB-REPO-SSH-LINK</span>
+<span class="token command">$ git add .</span>
+<span class="token command">$ git commit<span class="token parameter"> -m</span> </span><span class="token string">"COMMIT MESSAGE"</span>
+<span class="token command">$ git push<span class="token parameter"> -u</span> origin master</span>
+</code></pre>
+</li>
 </ol>
 <p>Now, your static website is available at <code>https://yourname.gitlab.io/project</code> that is similar to GitHub. <span class="exturl" data-url="aHR0cHM6Ly9naXRsYWIuY29tL2hlbHAvdXNlci9wcm9qZWN0L3BhZ2VzL2luZGV4Lm1k">More GitLab Pages config in here<i class="fa fa-external-link-alt"></i></span>.</p>
 <p>Of course, you can also pulish static website on GitHub Pages or others pages service. There are two ways to configure <code>.gitlab-ci.yml</code>:</p>
@@ -384,16 +478,80 @@
 <li><p>Click <code>SETTINGS-CI/CD → Variables</code> in Gitlab, and defined access token as custom variable <code>GITHUB_ACCESS_TOKEN</code>. Or set <code>USERNAME</code> <code>PASSWORD</code> variable for coding repo.</p>
 </li>
 <li><p>Configure <code>.gitlab-ci.yml</code>: <strong>only add deploy stage at the end of this file</strong></p>
-  <figure class="highlight yml"><figcaption><span>hexo/.gitlab-ci.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">github:</span></span><br><span class="line">  <span class="attr">stage:</span> <span class="string">deploy</span></span><br><span class="line">  <span class="attr">script:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">cd</span> <span class="string">./public</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">git</span> <span class="string">init</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">git</span> <span class="string">config</span> <span class="string">--global</span> <span class="string">user.name</span> <span class="string">&quot;YOUR-USER-NAME&quot;</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">git</span> <span class="string">config</span> <span class="string">--global</span> <span class="string">user.email</span> <span class="string">&quot;YOUR-EMAIL&quot;</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">git</span> <span class="string">add</span> <span class="string">.</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">git</span> <span class="string">commit</span> <span class="string">-m</span> <span class="string">&quot;gitlab-auto-deploy&quot;</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">git</span> <span class="string">push</span> <span class="string">--force</span> <span class="string">--quiet</span> <span class="string">--set-upstream</span> <span class="string">https://$GITHUB_ACCESS_TOKEN@github.com/username/username.github.io.git</span> <span class="string">master</span> <span class="comment"># replace github_access_token</span></span><br><span class="line">  <span class="comment"># - git config http.postBuffer 524288000</span></span><br><span class="line">  <span class="comment"># - git push --force --quiet --set-upstream https://$USERNAME:$PASSWORD@git.coding.net/username/reponame.git master # replace username &amp; password, please escape the password</span></span><br><span class="line">  <span class="attr">only:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">master</span></span><br></pre></td></tr></table></figure></li>
+<pre class=" language-yml"><code class="language-yml">github:
+  stage: deploy
+  script:
+  - cd ./public
+  - git init
+  - git config --global user.name "YOUR-USER-NAME"
+  - git config --global user.email "YOUR-EMAIL"
+  - git add .
+  - git commit -m "gitlab-auto-deploy"
+  - git push --force --quiet --set-upstream https://$GITHUB_ACCESS_TOKEN@github.com/username/username.github.io.git master # replace github_access_token
+  # - git config http.postBuffer 524288000
+  # - git push --force --quiet --set-upstream https://$USERNAME:$PASSWORD@git.coding.net/username/reponame.git master # replace username & password, please escape the password
+  only:
+  - master
+</code></pre>
+</li>
 </ul></div><div class="tab-pane" id="gitlab-ci-2"><p>Deploy key is a SSH key set in your repo to grant client read-only (as well as r&#x2F;w, if you want) access to your repo. This method is suitable for most public blog repositories and there are no private sub-modules in the repositories.</p>
 <ul>
 <li><p>Generate a deploy key</p>
-  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -b 4096 -C &quot;&#123;email&#125;&quot; -f ~/.ssh/deploy_key</span><br></pre></td></tr></table></figure>
+<pre class=" language-git"><code class="language-git">$ ssh-keygen -t rsa -b 4096 -C <span class="token string">"{email}"</span> -f ~/.ssh/deploy_key
+</code></pre>
 </li>
 <li><p>Click <code>SETTINGS-CI/CD → Variables</code> in Gitlab, copy the content of private key and defined it as custom variable <code>DEPLOY_PRIVATE_KEY</code>.</p>
 </li>
 <li><p>Configure <code>.gitlab-ci.yml</code>: <strong>only update script in <code>before_script</code></strong></p>
-  <figure class="highlight yml"><figcaption><span>hexo/.gitlab-ci.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">before_script:</span></span><br><span class="line">  <span class="comment"># Set TimeZone, eg: Asia/Shanghai</span></span><br><span class="line">  <span class="comment"># - export TZ=&#x27;Asia/Shanghai&#x27;</span></span><br><span class="line"></span><br><span class="line">  <span class="bullet">-</span> <span class="string">git</span> <span class="string">config</span> <span class="string">--global</span> <span class="string">user.name</span> <span class="string">&quot;YOUR-USER-NAME&quot;</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">git</span> <span class="string">config</span> <span class="string">--global</span> <span class="string">user.email</span> <span class="string">&quot;YOUR-EMAIL&quot;</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Restore last modified time</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">&quot;git ls-files -z | while read -d &#x27;&#x27; path; do touch -d \&quot;$(git log -1 --format=\&quot;@%ct\&quot; \&quot;$path\&quot;)\&quot; \&quot;$path\&quot;; done&quot;</span></span><br><span class="line">  <span class="comment"># Install ssh-agent if not already installed, it is required by Docker.</span></span><br><span class="line">  <span class="comment"># (change apt-get to yum if you use a CentOS-based image)</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">&#x27;which ssh-agent || ( apt-get update -y &amp;&amp; apt-get install openssh-client -y )&#x27;</span></span><br><span class="line">  <span class="comment"># Run ssh-agent (inside the build environment)</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">eval</span> <span class="string">$(ssh-agent</span> <span class="string">-s)</span></span><br><span class="line">  <span class="comment"># Add the SSH key stored in SSH_PRIVATE_KEY variable to the agent store</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">ssh-add</span> <span class="string">&lt;(echo</span> <span class="string">&quot;$DEPLOY_PRIVATE_KEY&quot;</span><span class="string">)</span></span><br><span class="line">  <span class="comment"># For Docker builds disable host key checking. Be aware that by adding that</span></span><br><span class="line">  <span class="comment"># you are suspectible to man-in-the-middle attacks.</span></span><br><span class="line">  <span class="comment"># WARNING: Use this only with the Docker executor, if you use it with shell</span></span><br><span class="line">  <span class="comment"># you will overwrite your user&#x27;s SSH config.</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">mkdir</span> <span class="string">-p</span> <span class="string">~/.ssh</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">&#x27;[[ -f /.dockerenv ]] &amp;&amp; echo -e &quot;Host *\n\tStrictHostKeyChecking no\n\n&quot; &gt; ~/.ssh/config&#x27;</span></span><br><span class="line">  <span class="comment"># In order to properly check the server&#x27;s host key, assuming you created the</span></span><br><span class="line">  <span class="comment"># SSH_SERVER_HOSTKEYS variable previously, uncomment the following two lines</span></span><br><span class="line">  <span class="comment"># instead.</span></span><br><span class="line">  <span class="comment"># - mkdir -p ~/.ssh</span></span><br><span class="line">  <span class="comment"># - &#x27;[[ -f /.dockerenv ]] &amp;&amp; echo &quot;$SSH_SERVER_HOSTKEYS&quot; &gt; ~/.ssh/known_hosts&#x27;</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Install pandoc, eg: v1.19.2.1</span></span><br><span class="line">  <span class="comment"># - wget https://github.com/jgm/pandoc/releases/download/1.19.2.1/pandoc-1.19.2.1-1-amd64.deb</span></span><br><span class="line">  <span class="comment"># - dpkg -i ./pandoc-1.19.2.1-1-amd64.deb</span></span><br><span class="line"></span><br><span class="line"><span class="attr">image:</span> <span class="string">node:lts</span></span><br><span class="line"></span><br><span class="line"><span class="attr">pages:</span></span><br><span class="line">  <span class="attr">cache:</span></span><br><span class="line">    <span class="attr">paths:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">node_modules/</span></span><br><span class="line">  <span class="attr">script:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">npm</span> <span class="string">install</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">npx</span> <span class="string">hexo</span> <span class="string">deploy</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">artifacts:</span></span><br><span class="line">    <span class="attr">paths:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">public</span></span><br><span class="line">  <span class="attr">only:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">master</span></span><br></pre></td></tr></table></figure></li>
+<pre class=" language-yml"><code class="language-yml">before_script:
+  # Set TimeZone, eg: Asia/Shanghai
+  # - export TZ='Asia/Shanghai'
+
+  - git config --global user.name "YOUR-USER-NAME"
+  - git config --global user.email "YOUR-EMAIL"
+
+  # Restore last modified time
+  - "git ls-files -z | while read -d '' path; do touch -d \"$(git log -1 --format=\"@%ct\" \"$path\")\" \"$path\"; done"
+  # Install ssh-agent if not already installed, it is required by Docker.
+  # (change apt-get to yum if you use a CentOS-based image)
+  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+  # Run ssh-agent (inside the build environment)
+  - eval $(ssh-agent -s)
+  # Add the SSH key stored in SSH_PRIVATE_KEY variable to the agent store
+  - ssh-add <(echo "$DEPLOY_PRIVATE_KEY")
+  # For Docker builds disable host key checking. Be aware that by adding that
+  # you are suspectible to man-in-the-middle attacks.
+  # WARNING: Use this only with the Docker executor, if you use it with shell
+  # you will overwrite your user's SSH config.
+  - mkdir -p ~/.ssh
+  - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+  # In order to properly check the server's host key, assuming you created the
+  # SSH_SERVER_HOSTKEYS variable previously, uncomment the following two lines
+  # instead.
+  # - mkdir -p ~/.ssh
+  # - '[[ -f /.dockerenv ]] && echo "$SSH_SERVER_HOSTKEYS" > ~/.ssh/known_hosts'
+
+  # Install pandoc, eg: v1.19.2.1
+  # - wget https://github.com/jgm/pandoc/releases/download/1.19.2.1/pandoc-1.19.2.1-1-amd64.deb
+  # - dpkg -i ./pandoc-1.19.2.1-1-amd64.deb
+
+image: node:lts
+
+pages:
+  cache:
+    paths:
+    - node_modules/
+  script:
+  - npm install
+  - npx hexo deploy
+
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
+</code></pre>
+</li>
 </ul></div></div></div>
 
 <div class="note danger"><p>Variables are not masked, and their values can be shown in the job logs if explicitly asked to do so. So make sure gitlab pipelines can only be viewed by yourself.</p>
@@ -435,11 +593,12 @@
   </span>
   <span class="author" itemprop="copyrightHolder">NexT</span>
 </div>
-  <div class="powered-by">Powered by <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <a href="https://theme-next.js.org/">NexT.Gemini</a>
+  <div class="powered-by">由 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <a href="https://theme-next.js.org/">NexT.Gemini</a> 强力驱动
   </div><div class="footer-custom">
-Website source code <span class="exturl theme-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG8tbmV4dC9oZXhvLW5leHQuZ2l0aHViLmlv">here</span>
+  <div class="powered-by">由 <a href="https://github.com/next-theme/theme-next-docs" class="theme-link" rel="noopener" target="_blank">Hexo</a> v8.0.0 驱动</div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://github.com/next-theme/hexo-theme-next" class="theme-link" rel="noopener" target="_blank">Hexo.NexT</a> v8.0.0</div>
 </div>
-
 
     </div>
   </footer>

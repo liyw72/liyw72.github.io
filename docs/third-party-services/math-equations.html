@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"theme-next.js.org","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.10.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.json","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.10.0/source/js/config.min.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"theme-next.js.org","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.10.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.json","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.10.0/source/js/config.min.js"></script>
 
   <meta name="description" content="NexT User Docs – Third-party Service Integration – Math Equations">
 <meta property="og:type" content="website">
@@ -28,7 +28,7 @@
 <meta property="og:url" content="https://theme-next.js.org/docs/third-party-services/math-equations.html">
 <meta property="og:site_name" content="NexT">
 <meta property="og:description" content="NexT User Docs – Third-party Service Integration – Math Equations">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-02-08T08:40:19.209Z">
 <meta property="article:modified_time" content="2022-02-08T06:52:01.000Z">
 <meta property="article:author" content="John Doe">
@@ -40,7 +40,7 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"en","comments":true,"permalink":"https://theme-next.js.org/docs/third-party-services/math-equations.html","path":"docs/third-party-services/math-equations.html","title":"Math Equations"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":true,"permalink":"https://theme-next.js.org/docs/third-party-services/math-equations.html","path":"docs/third-party-services/math-equations.html","title":"Math Equations"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
 <title>Math Equations | NexT
@@ -58,7 +58,7 @@
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
 <link rel="alternate" href="/atom.xml" title="NexT" type="application/atom+xml">
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
@@ -67,7 +67,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+    <div class="toggle" aria-label="切换导航栏" role="button">
         <span class="toggle-line"></span>
         <span class="toggle-line"></span>
         <span class="toggle-line"></span>
@@ -81,7 +81,6 @@
       <p class="site-title">NexT</p>
       <i class="logo-line"></i>
     </a>
-      <p class="site-subtitle" itemprop="description">Theme for Hexo</p>
   </div>
 
   <div class="site-nav-right">
@@ -95,7 +94,7 @@
 
 <nav class="site-nav">
   <ul class="main-menu menu">
-        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-bell fa-fw"></i>Home</a></li>
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-bell fa-fw"></i>首页</a></li>
         
             
   <li class="menu-item menu-item-docs"><a href="/docs/" rel="section"><i class="fa fa-book fa-fw"></i>Docs</a></li>
@@ -103,9 +102,10 @@
 
       
         <li class="menu-item menu-item-plugins"><a href="/plugins/" rel="section"><i class="fa fa-flask fa-fw"></i>Plugins</a></li>
-        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">58</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>博客<span class="badge">58</span></a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-fw fa-th fa-fw"></i>分类<span class="badge">0</span></a></li>
       <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
       </li>
   </ul>
@@ -120,7 +120,7 @@
   </span>
   <div class="search-input-container">
     <input autocomplete="off" autocapitalize="off" maxlength="80"
-           placeholder="Searching..." spellcheck="false"
+           placeholder="搜索..." spellcheck="false"
            type="search" class="search-input">
   </div>
   <span class="popup-btn-close" role="button">
@@ -150,10 +150,10 @@
     <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          站点概览
         </li>
       </ul>
 
@@ -166,17 +166,17 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Theme NexT"
+    <img class="site-author-image" itemprop="image" alt="John Doe"
       src="/images/logo.svg">
-  <p class="site-author-name" itemprop="name">Theme NexT</p>
-  <div class="site-description" itemprop="description">Stay Simple. Stay NexT.</div>
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
           <span class="site-state-item-count">58</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
   </nav>
@@ -208,7 +208,7 @@
     </header>
 
     
-  <div class="back-to-top" role="button" aria-label="Back to top">
+  <div class="back-to-top" role="button" aria-label="返回顶部">
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
@@ -327,9 +327,9 @@
     
     
     
-    <div class="post-block" lang="en"><header class="post-header">
+    <div class="post-block" lang="zh-CN"><header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">Math Equations<span class="exturl post-edit-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvdGhlbWUtbmV4dC1kb2NzL2VkaXQvbWFzdGVyL3NvdXJjZS9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL21hdGgtZXF1YXRpb25zLm1k" title="Edit this post"><i class="fa fa-pen-nib"></i></span>
+<h1 class="post-title" itemprop="name headline">Math Equations<span class="exturl post-edit-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvdGhlbWUtbmV4dC1kb2NzL2VkaXQvbWFzdGVyL3NvdXJjZS9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL21hdGgtZXF1YXRpb25zLm1k" title="编辑"><i class="fa fa-pen-nib"></i></span>
 </h1>
 
 <div class="post-meta-container">
@@ -347,8 +347,23 @@
       
       
       <div class="post-body">
-          <h3 id="Settings"><a href="#Settings" class="headerlink" title="Settings"></a>Settings</h3><figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment"># Math Formulas Render Support</span></span><br><span class="line"><span class="attr">math:</span></span><br><span class="line">  <span class="comment"># Default (false) will load mathjax / katex script on demand.</span></span><br><span class="line">  <span class="comment"># That is it only render those page which has `mathjax: true` in front-matter.</span></span><br><span class="line">  <span class="comment"># If you set it to true, it will load mathjax / katex script EVERY PAGE.</span></span><br><span class="line">  <span class="attr">every_page:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">mathjax:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># Available values: none | ams | all</span></span><br><span class="line">    <span class="attr">tags:</span> <span class="string">none</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">katex:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">    <span class="comment"># See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex</span></span><br><span class="line">    <span class="attr">copy_tex:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+          <h3 id="Settings"><a href="#Settings" class="headerlink" title="Settings"></a>Settings</h3><pre class=" language-yml"><code class="language-yml"># Math Formulas Render Support
+math:
+  # Default (false) will load mathjax / katex script on demand.
+  # That is it only render those page which has `mathjax: true` in front-matter.
+  # If you set it to true, it will load mathjax / katex script EVERY PAGE.
+  every_page: false
 
+  mathjax:
+    enable: true
+    # Available values: none | ams | all
+    tags: none
+
+  katex:
+    enable: false
+    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
+    copy_tex: false
+</code></pre>
 <p>The <code>every_page</code> option controls whether to render Math Equations every page.</p>
 <ul>
 <li><strong><code>false</code></strong> → Equations will be processed on demand. It will only render those posts which have <code>mathjax: true</code> in their front-matter.</li>
@@ -358,13 +373,25 @@
 </summary>
 <ul>
 <li><p>This post will render the Math Equations</p>
-  <figure class="highlight md"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Will Render Math</span><br><span class="line"><span class="section">mathjax: true</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
+<pre class=" language-md"><code class="language-md">---
+title: Will Render Math
+mathjax: true
+---
+</code></pre>
 </li>
 <li><p>This post will NOT render the Math Equations</p>
-  <figure class="highlight md"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Not Render Math</span><br><span class="line"><span class="section">mathjax: false</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
+<pre class=" language-md"><code class="language-md">---
+title: Not Render Math
+mathjax: false
+---
+</code></pre>
 </li>
 <li><p>This post will NOT render the Math Equations either</p>
-  <figure class="highlight md"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line"><span class="section">title: Not Render Math Either</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure></li>
+<pre class=" language-md"><code class="language-md">---
+title: Not Render Math Either
+---
+</code></pre>
+</li>
 </ul>
 
 </details>
@@ -383,16 +410,28 @@
 </ul>
 <p>hexo-renderer-pandoc is recommended because it can handle mathematical formulas in markdown documents perfectly.</p>
 <div class="note warning"><p>If you are using other renderers, such as <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvLXJlbmRlcmVyLW1hcmtlZA==">hexo-renderer-marked<i class="fa fa-external-link-alt"></i></span>, you need to be aware of the conflict between LaTeX and Markdown syntax. For example, an underscore (<code>_</code>) may be interpreted as the start of italic text in Markdown, or subscripted mark in TeX. To avoid syntax errors, please use escape characters (<code>\_</code>) instead:</p>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-$\epsilon_0$</span></span><br><span class="line"><span class="addition">+$\epsilon\_0$</span></span><br><span class="line"><span class="deletion">-\begin&#123;eqnarray*&#125;</span></span><br><span class="line"><span class="addition">+\begin&#123;eqnarray\*&#125;</span></span><br><span class="line"><span class="deletion">-\\</span></span><br><span class="line"><span class="addition">+\\\\</span></span><br></pre></td></tr></table></figure>
+<pre class=" language-diff"><code class="language-diff"><span class="token deleted">-$\epsilon_0$</span>
+<span class="token inserted">+$\epsilon\_0$</span>
+<span class="token deleted">-\begin{eqnarray*}</span>
+<span class="token inserted">+\begin{eqnarray\*}</span>
+<span class="token deleted">-\\</span>
+<span class="token inserted">+\\\\</span>
+</code></pre>
 </div>
 
 <p><strong>Installation</strong></p>
 <ol>
 <li><p>Firstly, set <code>mathjax</code> as rendering engine in <mark class="label primary">theme config file</mark>.</p>
- <figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">math:</span></span><br><span class="line">  <span class="string">...</span></span><br><span class="line">  <span class="attr">mathjax:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<pre class=" language-yml"><code class="language-yml">math:
+  ...
+  mathjax:
+    enable: true
+</code></pre>
 </li>
 <li><p>Then you need to uninstall the original renderer <code>hexo-renderer-marked</code>, and install <code>hexo-renderer-pandoc</code>:</p>
- <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm un hexo-renderer-marked</span><br><span class="line">$ npm i hexo-renderer-pandoc</span><br></pre></td></tr></table></figure>
+<pre class=" language-bash"><code class="language-bash">$ <span class="token function">npm</span> un hexo-renderer-marked
+$ <span class="token function">npm</span> i hexo-renderer-pandoc
+</code></pre>
 </li>
 <li><p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2pnbS9wYW5kb2M=">pandoc<i class="fa fa-external-link-alt"></i></span> is required for hexo-renderer-pandoc, here&#39;s <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2pnbS9wYW5kb2MvYmxvYi9tYXN0ZXIvSU5TVEFMTC5tZA==">how to install pandoc<i class="fa fa-external-link-alt"></i></span>.</p>
 </li>
@@ -407,23 +446,45 @@
 <p><strong>Installation</strong></p>
 <ol>
 <li><p>Firstly, set <code>katex</code> as rendering engine in <mark class="label primary">theme config file</mark>.</p>
- <figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">math:</span></span><br><span class="line">  <span class="string">...</span></span><br><span class="line">  <span class="attr">katex:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<pre class=" language-yml"><code class="language-yml">math:
+  ...
+  katex:
+    enable: true
+</code></pre>
 </li>
 <li><p>Then you need to uninstall the original renderer <code>hexo-renderer-marked</code> and install one of the renderer plugins:</p>
 </li>
 </ol>
-<div class="tabs" id="katex-renderer"><ul class="nav-tabs"><li class="tab active"><a href="#katex-renderer-1">hexo-renderer-markdown-it-plus</a></li><li class="tab"><a href="#katex-renderer-2">hexo-renderer-markdown-it</a></li></ul><div class="tab-content"><div class="tab-pane active" id="katex-renderer-1"><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm un hexo-renderer-marked</span><br><span class="line">$ npm i hexo-renderer-markdown-it-plus</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="katex-renderer-2"><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm un hexo-renderer-marked</span><br><span class="line">$ npm i hexo-renderer-markdown-it</span><br></pre></td></tr></table></figure>
-
+<div class="tabs" id="katex-renderer"><ul class="nav-tabs"><li class="tab active"><a href="#katex-renderer-1">hexo-renderer-markdown-it-plus</a></li><li class="tab"><a href="#katex-renderer-2">hexo-renderer-markdown-it</a></li></ul><div class="tab-content"><div class="tab-pane active" id="katex-renderer-1"><pre class=" language-bash"><code class="language-bash">$ <span class="token function">npm</span> un hexo-renderer-marked
+$ <span class="token function">npm</span> i hexo-renderer-markdown-it-plus
+</code></pre></div><div class="tab-pane" id="katex-renderer-2"><pre class=" language-bash"><code class="language-bash">$ <span class="token function">npm</span> un hexo-renderer-marked
+$ <span class="token function">npm</span> i hexo-renderer-markdown-it
+</code></pre>
 <p>If you use <code>hexo-renderer-markdown-it</code>, you also need to install <code>markdown-it-katex</code>:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm i markdown-it-katex</span><br></pre></td></tr></table></figure>
-
+<pre class=" language-bash"><code class="language-bash">$ <span class="token function">npm</span> i markdown-it-katex
+</code></pre>
 <p>And then in <mark class="label info">site config file</mark> you need to add <code>markdown-it-katex</code> as a plugin for <code>hexo-renderer-markdown-it</code>:</p>
-<figure class="highlight yml"><figcaption><span>hexo/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment"># config of hexo-renderer-markdown-it</span></span><br><span class="line"><span class="attr">markdown:</span></span><br><span class="line">  <span class="attr">render:</span></span><br><span class="line">    <span class="attr">html:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">xhtmlOut:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">breaks:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">linkify:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">typographer:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">quotes:</span> <span class="string">&#x27;“”‘’&#x27;</span></span><br><span class="line">  <span class="attr">plugins:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-katex</span></span><br></pre></td></tr></table></figure></div></div></div>
+<pre class=" language-yml"><code class="language-yml"># config of hexo-renderer-markdown-it
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-katex
+</code></pre></div></div></div>
 
 <p><strong>Plugins</strong></p>
 <p>Copy-tex extension for KaTeX modifes the copy&#x2F;paste behavior in any browser supporting the Clipboard API so that, when selecting and copying whole KaTeX-rendered elements, the text content of the resulting clipboard renders KaTeX elements as their LaTeX source surrounded by specified delimiters. More information: <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL0thVGVYL0thVGVYL3RyZWUvbWFzdGVyL2NvbnRyaWIvY29weS10ZXg=">Copy-tex extension<i class="fa fa-external-link-alt"></i></span>.</p>
-<figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="attr">math:</span></span><br><span class="line">  <span class="string">...</span></span><br><span class="line">  <span class="attr">katex:</span></span><br><span class="line">    <span class="comment"># See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex</span></span><br><span class="line">    <span class="attr">copy_tex:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
+<pre class=" language-yml"><code class="language-yml">math:
+  ...
+  katex:
+    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
+    copy_tex: true
+</code></pre>
 <div class="note danger"><p><strong>Known Issues</strong></p>
 <ol>
 <li>Firstly, please check <span class="exturl" data-url="aHR0cHM6Ly9rYXRleC5vcmcvZG9jcy9pc3N1ZXMuaHRtbA==">Common Issues<i class="fa fa-external-link-alt"></i></span> of KaTeX.</li>
@@ -436,7 +497,9 @@
 </div></div></div></div>
 
 <div class="note warning"><p>After setting up the math rendering engine or installing &#x2F; uninstalling the Markdown renderer, please execute <code>hexo clean</code>. Run standard Hexo generate, deploy process or start the server to test whether the plugin is working properly:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean &amp;&amp; hexo g -d</span><br><span class="line"><span class="comment"># or hexo clean &amp;&amp; hexo s</span></span><br></pre></td></tr></table></figure>
+<pre class=" language-bash"><code class="language-bash">$ hexo clean <span class="token operator">&amp;&amp;</span> hexo g -d
+<span class="token comment" spellcheck="true"># or hexo clean &amp;&amp; hexo s</span>
+</code></pre>
 </div>
 
 <div class="note warning"><p>Except for the required renderer, any other Hexo math plugins are unnecessary and there is no need to manually import any JS or CSS files. If you have installed plugins such as <code>hexo-math</code> or <code>hexo-katex</code>, they may conflict with the built-in rendering engine of NexT.</p>
@@ -447,42 +510,62 @@
 
 <h4 id="Numbering-and-Referring-Equations-in-MathJax"><a href="#Numbering-and-Referring-Equations-in-MathJax" class="headerlink" title="Numbering and Referring Equations in MathJax"></a>Numbering and Referring Equations in MathJax</h4><p>In NexT v6.3.0, we have added feature to <span class="exturl" data-url="aHR0cHM6Ly9kb2NzLm1hdGhqYXgub3JnL2VuL2xhdGVzdC9pbnB1dC90ZXgvZXFudW1iZXJzLmh0bWw=">automatic equation numbering<i class="fa fa-external-link-alt"></i></span> with opportunity to make reference to that equations.</p>
 <p>To enable this feature, you need to set <code>mathjax.tags</code> to <code>ams</code> in <mark class="label primary">theme config file</mark>.</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">math:</span></span><br><span class="line">  <span class="attr">mathjax:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># Available values: none | ams | all</span></span><br><span class="line">    <span class="attr">tags:</span> <span class="string">ams</span></span><br></pre></td></tr></table></figure>
-
+<pre class=" language-yml"><code class="language-yml">math:
+  mathjax:
+    enable: true
+    # Available values: none | ams | all
+    tags: ams
+</code></pre>
 <p>And to make the automatic equation numbering work, you have to wrap your LaTeX equations in <code>equation</code> environment. Using the plain old style (i.e., wrap an equation with two dollar signs in each side) will not work. How to refer to an equation? Just give a <code>\label&#123;&#125;</code> tag and then in your later text, use <code>\ref&#123;&#125;</code> or <code>\eqref&#123;&#125;</code> to refer it. Using <code>\eqref&#123;&#125;</code> is preferred since if you use <code>\ref&#123;&#125;</code>, there are no parentheses around the equation number. Below are some of the common scenarios for equation numbering.</p>
 <h4 id="Simple-Equations"><a href="#Simple-Equations" class="headerlink" title="Simple Equations"></a>Simple Equations</h4><p>For simple equations, use the following form to give a tag,</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span><span class="keyword">\begin</span>&#123;equation&#125; <span class="keyword">\label</span>&#123;eq1&#125;</span><br><span class="line">e=mc<span class="built_in">^</span>2</span><br><span class="line"><span class="keyword">\end</span>&#123;equation&#125;<span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-
+<pre class=" language-latex"><code class="language-latex"><span class="token equation string">$$</span><span class="token function selector">\begin</span><span class="token punctuation">&amp;</span>#123;equation<span class="token punctuation">&amp;</span>#125; <span class="token function selector">\label</span><span class="token punctuation">&amp;</span>#123;eq1<span class="token punctuation">&amp;</span>#125;
+e=mc^2
+<span class="token function selector">\end</span><span class="token punctuation">&amp;</span>#123;equation<span class="token punctuation">&amp;</span>#125;<span class="token equation string">$$</span>
+</code></pre>
 <p>$$\begin{equation} \label{eq1}<br>e&#x3D;mc^2<br>\end{equation}$$</p>
 <p>Then, you can refer to this equation in your text easily by using something like:</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line">The famous matter-energy equation <span class="built_in">$</span><span class="keyword">\eqref</span>&#123;eq1&#125;<span class="built_in">$</span> proposed by Einstein...</span><br></pre></td></tr></table></figure>
-
+<pre class=" language-latex"><code class="language-latex">The famous matter-energy equation <span class="token equation string">$<span class="token equation-command regex">\eqref</span>&amp;#123;eq1&amp;#125;$</span> proposed by Einstein...
+</code></pre>
 <p>The famous matter-energy equation $\eqref{eq1}$ proposed by Einstein...</p>
 <h4 id="Multi-line-Equations"><a href="#Multi-line-Equations" class="headerlink" title="Multi-line Equations"></a>Multi-line Equations</h4><p>For multi-line equations, inside the <code>equation</code> environment, you can use the <code>aligned</code> environment to split it into multiple lines:</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span><span class="keyword">\begin</span>&#123;equation&#125; <span class="keyword">\label</span>&#123;eq2&#125;</span><br><span class="line"><span class="keyword">\begin</span>&#123;aligned&#125;</span><br><span class="line">a <span class="built_in">&amp;</span>= b + c <span class="keyword">\\</span></span><br><span class="line">  <span class="built_in">&amp;</span>= d + e + f + g <span class="keyword">\\</span></span><br><span class="line">  <span class="built_in">&amp;</span>= h + i</span><br><span class="line"><span class="keyword">\end</span>&#123;aligned&#125;</span><br><span class="line"><span class="keyword">\end</span>&#123;equation&#125;<span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-
+<pre class=" language-latex"><code class="language-latex"><span class="token equation string">$$</span><span class="token function selector">\begin</span><span class="token punctuation">&amp;</span>#123;equation<span class="token punctuation">&amp;</span>#125; <span class="token function selector">\label</span><span class="token punctuation">&amp;</span>#123;eq2<span class="token punctuation">&amp;</span>#125;
+<span class="token function selector">\begin</span><span class="token punctuation">&amp;</span>#123;aligned<span class="token punctuation">&amp;</span>#125;
+a <span class="token punctuation">&amp;</span>= b + c <span class="token function selector">\\</span>
+  <span class="token punctuation">&amp;</span>= d + e + f + g <span class="token function selector">\\</span>
+  <span class="token punctuation">&amp;</span>= h + i
+<span class="token function selector">\end</span><span class="token punctuation">&amp;</span>#123;aligned<span class="token punctuation">&amp;</span>#125;
+<span class="token function selector">\end</span><span class="token punctuation">&amp;</span>#123;equation<span class="token punctuation">&amp;</span>#125;<span class="token equation string">$$</span>
+</code></pre>
 <p>$$\begin{equation} \label{eq2}<br>\begin{aligned}<br>a &amp;&#x3D; b + c \\<br>  &amp;&#x3D; d + e + f + g \\<br>  &amp;&#x3D; h + i<br>\end{aligned}<br>\end{equation}$$</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line">Equation <span class="built_in">$</span><span class="keyword">\eqref</span>&#123;eq2&#125;<span class="built_in">$</span> is a multi-line equation.</span><br></pre></td></tr></table></figure>
-
+<pre class=" language-latex"><code class="language-latex">Equation <span class="token equation string">$<span class="token equation-command regex">\eqref</span>&amp;#123;eq2&amp;#125;$</span> is a multi-line equation.
+</code></pre>
 <p>Equation $\eqref{eq2}$ is a multi-line equation.</p>
 <h4 id="Multiple-Aligned-Equations"><a href="#Multiple-Aligned-Equations" class="headerlink" title="Multiple Aligned Equations"></a>Multiple Aligned Equations</h4><p>We can use <code>align</code> environment to align multiple equations. Each of these equations will get its own numbers.</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span><span class="keyword">\begin</span>&#123;align&#125;</span><br><span class="line">a <span class="built_in">&amp;</span>= b + c <span class="keyword">\label</span>&#123;eq3&#125; <span class="keyword">\\</span></span><br><span class="line">x <span class="built_in">&amp;</span>= yz <span class="keyword">\label</span>&#123;eq4&#125; <span class="keyword">\\</span></span><br><span class="line">l <span class="built_in">&amp;</span>= m - n <span class="keyword">\label</span>&#123;eq5&#125;</span><br><span class="line"><span class="keyword">\end</span>&#123;align&#125;<span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-
+<pre class=" language-latex"><code class="language-latex"><span class="token equation string">$$</span><span class="token function selector">\begin</span><span class="token punctuation">&amp;</span>#123;align<span class="token punctuation">&amp;</span>#125;
+a <span class="token punctuation">&amp;</span>= b + c <span class="token function selector">\label</span><span class="token punctuation">&amp;</span>#123;eq3<span class="token punctuation">&amp;</span>#125; <span class="token function selector">\\</span>
+x <span class="token punctuation">&amp;</span>= yz <span class="token function selector">\label</span><span class="token punctuation">&amp;</span>#123;eq4<span class="token punctuation">&amp;</span>#125; <span class="token function selector">\\</span>
+l <span class="token punctuation">&amp;</span>= m - n <span class="token function selector">\label</span><span class="token punctuation">&amp;</span>#123;eq5<span class="token punctuation">&amp;</span>#125;
+<span class="token function selector">\end</span><span class="token punctuation">&amp;</span>#123;align<span class="token punctuation">&amp;</span>#125;<span class="token equation string">$$</span>
+</code></pre>
 <p>$$\begin{align}<br>a &amp;&#x3D; b + c \label{eq3} \\<br>x &amp;&#x3D; yz \label{eq4} \\<br>l &amp;&#x3D; m - n \label{eq5}<br>\end{align}$$</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line">There are three aligned equations: equation <span class="built_in">$</span><span class="keyword">\eqref</span>&#123;eq3&#125;<span class="built_in">$</span>, equation <span class="built_in">$</span><span class="keyword">\eqref</span>&#123;eq4&#125;<span class="built_in">$</span> and equation <span class="built_in">$</span><span class="keyword">\eqref</span>&#123;eq5&#125;<span class="built_in">$</span>.</span><br></pre></td></tr></table></figure>
-
+<pre class=" language-latex"><code class="language-latex">There are three aligned equations: equation <span class="token equation string">$<span class="token equation-command regex">\eqref</span>&amp;#123;eq3&amp;#125;$</span>, equation <span class="token equation string">$<span class="token equation-command regex">\eqref</span>&amp;#123;eq4&amp;#125;$</span> and equation <span class="token equation string">$<span class="token equation-command regex">\eqref</span>&amp;#123;eq5&amp;#125;$</span>.
+</code></pre>
 <p>There are three aligned equations: equation $\eqref{eq3}$, equation $\eqref{eq4}$ and equation $\eqref{eq5}$.</p>
 <p>Since <code>align</code> in and of itself is a complete equation environment (read <span class="exturl" data-url="aHR0cHM6Ly90ZXguc3RhY2tleGNoYW5nZS5jb20vcXVlc3Rpb25zLzk1NDAyL3doYXQtaXMtdGhlLWRpZmZlcmVuY2UtYmV0d2Vlbi1hbGlnbmVkLWluLWRpc3BsYXllZC1tb2RlLWFuZC1zdGFycmVkLWFsaWdu">here<i class="fa fa-external-link-alt"></i></span> about the difference between <code>aligned</code> and <code>align</code> in LaTeX). You do not need to wrap it with <code>equation</code> environment.</p>
 <h4 id="Exclude-Equations-from-Numbering"><a href="#Exclude-Equations-from-Numbering" class="headerlink" title="Exclude Equations from Numbering"></a>Exclude Equations from Numbering</h4><p>In the <code>align</code> environment, if you do not want to number one or some equations, just use <code>\nonumber</code> right behind these equations. Like the following:</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span><span class="keyword">\begin</span>&#123;align&#125;</span><br><span class="line">-4 + 5x <span class="built_in">&amp;</span>= 2 + y <span class="keyword">\nonumber</span> <span class="keyword">\\</span></span><br><span class="line">w + 2 <span class="built_in">&amp;</span>= -1 + w <span class="keyword">\\</span></span><br><span class="line">ab <span class="built_in">&amp;</span>= cb</span><br><span class="line"><span class="keyword">\end</span>&#123;align&#125;<span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-
+<pre class=" language-latex"><code class="language-latex"><span class="token equation string">$$</span><span class="token function selector">\begin</span><span class="token punctuation">&amp;</span>#123;align<span class="token punctuation">&amp;</span>#125;
+-4 + 5x <span class="token punctuation">&amp;</span>= 2 + y <span class="token function selector">\nonumber</span> <span class="token function selector">\\</span>
+w + 2 <span class="token punctuation">&amp;</span>= -1 + w <span class="token function selector">\\</span>
+ab <span class="token punctuation">&amp;</span>= cb
+<span class="token function selector">\end</span><span class="token punctuation">&amp;</span>#123;align<span class="token punctuation">&amp;</span>#125;<span class="token equation string">$$</span>
+</code></pre>
 <p>$$\begin{align}<br>-4 + 5x &amp;&#x3D; 2 + y \nonumber \\<br>w + 2 &amp;&#x3D; -1 + w \\<br>ab &amp;&#x3D; cb<br>\end{align}$$</p>
 <h4 id="Use-tag-to-Tag-Equations"><a href="#Use-tag-to-Tag-Equations" class="headerlink" title="Use \tag to Tag Equations"></a>Use <code>\tag</code> to Tag Equations</h4><p>Sometimes, you want to use more «exotic» style to refer your equation. You can use <code>\tag&#123;&#125;</code> to achieve this. For example:</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span>x+1<span class="keyword">\over</span><span class="keyword">\sqrt</span>&#123;1-x<span class="built_in">^</span>2&#125; <span class="keyword">\tag</span>&#123;i&#125;<span class="keyword">\label</span>&#123;eq<span class="built_in">_</span>tag&#125;<span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
-
+<pre class=" language-latex"><code class="language-latex"><span class="token equation string">$$</span>x+1<span class="token function selector">\over</span><span class="token function selector">\sqrt</span><span class="token punctuation">&amp;</span>#123;1-x^2<span class="token punctuation">&amp;</span>#125; <span class="token function selector">\tag</span><span class="token punctuation">&amp;</span>#123;i<span class="token punctuation">&amp;</span>#125;<span class="token function selector">\label</span><span class="token punctuation">&amp;</span>#123;eq_tag<span class="token punctuation">&amp;</span>#125;<span class="token equation string">$$</span>
+</code></pre>
 <p>$$x+1\over\sqrt{1-x^2} \tag{i}\label{eq_tag}$$</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line">Equation <span class="built_in">$</span><span class="keyword">\eqref</span>&#123;eq<span class="built_in">_</span>tag&#125;<span class="built_in">$</span> use `<span class="keyword">\tag</span>&#123;&#125;` instead of automatic numbering.</span><br></pre></td></tr></table></figure>
-
+<pre class=" language-latex"><code class="language-latex">Equation <span class="token equation string">$<span class="token equation-command regex">\eqref</span>&amp;#123;eq_tag&amp;#125;$</span> use `<span class="token function selector">\tag</span><span class="token punctuation">&amp;</span>#123;<span class="token punctuation">&amp;</span>#125;` instead of automatic numbering.
+</code></pre>
 <p>Equation $\eqref{eq_tag}$ use <code>\tag&#123;&#125;</code> instead of automatic numbering.</p>
 
       </div>
@@ -521,11 +604,12 @@
   </span>
   <span class="author" itemprop="copyrightHolder">NexT</span>
 </div>
-  <div class="powered-by">Powered by <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <a href="https://theme-next.js.org/">NexT.Gemini</a>
+  <div class="powered-by">由 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <a href="https://theme-next.js.org/">NexT.Gemini</a> 强力驱动
   </div><div class="footer-custom">
-Website source code <span class="exturl theme-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG8tbmV4dC9oZXhvLW5leHQuZ2l0aHViLmlv">here</span>
+  <div class="powered-by">由 <a href="https://github.com/next-theme/theme-next-docs" class="theme-link" rel="noopener" target="_blank">Hexo</a> v8.0.0 驱动</div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://github.com/next-theme/hexo-theme-next" class="theme-link" rel="noopener" target="_blank">Hexo.NexT</a> v8.0.0</div>
 </div>
-
 
     </div>
   </footer>

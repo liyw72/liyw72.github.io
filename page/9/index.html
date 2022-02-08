@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
@@ -20,13 +20,13 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"theme-next.js.org","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.10.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.json","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.10.0/source/js/config.min.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"theme-next.js.org","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.10.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.json","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.10.0/source/js/config.min.js"></script>
 
   <meta property="og:type" content="website">
 <meta property="og:title" content="NexT">
 <meta property="og:url" content="https://theme-next.js.org/page/9/index.html">
 <meta property="og:site_name" content="NexT">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="Hexo, NexT">
 <meta name="twitter:card" content="summary">
@@ -36,10 +36,10 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"en","comments":"","permalink":"","path":"page/9/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"page/9/index.html","title":""}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>NexT - Theme for Hexo</title>
+<title>NexT</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108155018-3"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"UA-108155018-3","only_pageview":false}</script>
@@ -53,7 +53,7 @@
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
 <link rel="alternate" href="/atom.xml" title="NexT" type="application/atom+xml">
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
@@ -62,7 +62,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+    <div class="toggle" aria-label="切换导航栏" role="button">
         <span class="toggle-line"></span>
         <span class="toggle-line"></span>
         <span class="toggle-line"></span>
@@ -76,7 +76,6 @@
       <h1 class="site-title">NexT</h1>
       <i class="logo-line"></i>
     </a>
-      <p class="site-subtitle" itemprop="description">Theme for Hexo</p>
   </div>
 
   <div class="site-nav-right">
@@ -90,7 +89,7 @@
 
 <nav class="site-nav">
   <ul class="main-menu menu">
-        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-bell fa-fw"></i>Home</a></li>
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-bell fa-fw"></i>首页</a></li>
         
             
   <li class="menu-item menu-item-docs"><a href="/docs/" rel="section"><i class="fa fa-book fa-fw"></i>Docs</a></li>
@@ -98,9 +97,10 @@
 
       
         <li class="menu-item menu-item-plugins"><a href="/plugins/" rel="section"><i class="fa fa-flask fa-fw"></i>Plugins</a></li>
-        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">58</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>博客<span class="badge">58</span></a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-fw fa-th fa-fw"></i>分类<span class="badge">0</span></a></li>
       <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
       </li>
   </ul>
@@ -115,7 +115,7 @@
   </span>
   <div class="search-input-container">
     <input autocomplete="off" autocapitalize="off" maxlength="80"
-           placeholder="Searching..." spellcheck="false"
+           placeholder="搜索..." spellcheck="false"
            type="search" class="search-input">
   </div>
   <span class="popup-btn-close" role="button">
@@ -145,10 +145,10 @@
     <div class="sidebar-inner sidebar-overview-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          站点概览
         </li>
       </ul>
 
@@ -160,17 +160,17 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Theme NexT"
+    <img class="site-author-image" itemprop="image" alt="John Doe"
       src="/images/logo.svg">
-  <p class="site-author-name" itemprop="name">Theme NexT</p>
-  <div class="site-description" itemprop="description">Stay Simple. Stay NexT.</div>
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
           <span class="site-state-item-count">58</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
   </nav>
@@ -202,7 +202,7 @@
     </header>
 
     
-  <div class="back-to-top" role="button" aria-label="Back to top">
+  <div class="back-to-top" role="button" aria-label="返回顶部">
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
@@ -228,8 +228,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -246,9 +246,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2019-10-01 05:18:04" itemprop="dateCreated datePublished" datetime="2019-10-01T05:18:04Z">2019-10-01</time>
+      <time title="创建时间：2019-10-01 05:18:04" itemprop="dateCreated datePublished" datetime="2019-10-01T05:18:04Z">2019-10-01</time>
     </span>
 
   
@@ -258,7 +258,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-7-4-1-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-7-4-1-released/" itemprop="commentCount"></span>
@@ -322,8 +322,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -340,9 +340,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2019-09-01 02:08:13" itemprop="dateCreated datePublished" datetime="2019-09-01T02:08:13Z">2019-09-01</time>
+      <time title="创建时间：2019-09-01 02:08:13" itemprop="dateCreated datePublished" datetime="2019-09-01T02:08:13Z">2019-09-01</time>
     </span>
 
   
@@ -352,7 +352,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-7-4-0-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-7-4-0-released/" itemprop="commentCount"></span>
@@ -372,8 +372,27 @@
           <h2 id="💥-Breaking-Changes"><a href="#💥-Breaking-Changes" class="headerlink" title="💥 Breaking Changes"></a>💥 Breaking Changes</h2><h3 id="Add-order-for-theme-inject-1136"><a href="#Add-order-for-theme-inject-1136" class="headerlink" title="Add order for theme_inject (#1136)"></a>Add order for theme_inject (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTEzNg==">#1136<i class="fa fa-external-link-alt"></i></span>)</h3><p>Redesigned the sequential configuration of the multi-comment system, which was originally introduced in #1048 of <code>New Features</code> section below.</p>
 <details><summary>Click to see configuration's changes</summary><p>
 
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"># Multiple Comment System Support</span><br><span class="line">comments:</span><br><span class="line">  # Available values: tabs | buttons</span><br><span class="line">  style: tabs</span><br><span class="line">  # Choose a comment system to be displayed by default.</span><br><span class="line">  # Available values: changyan | disqus | disqusjs | facebook_comments_plugin | gitalk | livere | valine | vkontakte</span><br><span class="line">  active:</span><br><span class="line">  # Setting `true` means remembering the comment system selected by the visitor.</span><br><span class="line">  storage: true</span><br><span class="line">  # Modify texts or order for any naves, here are some examples.</span><br><span class="line">  nav:</span><br><span class="line"><span class="deletion">-    #disqus: disqus</span></span><br><span class="line"><span class="deletion">-    #facebook_comments_plugin: &lt;i class=&quot;fa fa-facebook-official&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; facebook</span></span><br><span class="line"><span class="deletion">-    #gitalk: Load Gitalk</span></span><br><span class="line"><span class="addition">+    #disqus:</span></span><br><span class="line"><span class="addition">+    #  text: Load Disqus</span></span><br><span class="line"><span class="addition">+    #  order: -1</span></span><br><span class="line"><span class="addition">+    #facebook_comments_plugin:</span></span><br><span class="line"><span class="addition">+    #  text: &lt;i class=&quot;fa fa-facebook-official&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; facebook</span></span><br><span class="line"><span class="addition">+    #gitalk:</span></span><br></pre></td></tr></table></figure>
-
+<pre class=" language-diff"><code class="language-diff"># Multiple Comment System Support
+comments:
+  # Available values: tabs | buttons
+  style: tabs
+  # Choose a comment system to be displayed by default.
+  # Available values: changyan | disqus | disqusjs | facebook_comments_plugin | gitalk | livere | valine | vkontakte
+  active:
+  # Setting `true` means remembering the comment system selected by the visitor.
+  storage: true
+  # Modify texts or order for any naves, here are some examples.
+  nav:
+<span class="token deleted">-    #disqus: disqus</span>
+<span class="token deleted">-    #facebook_comments_plugin: &lt;i class="fa fa-facebook-official" aria-hidden="true">&lt;/i> facebook</span>
+<span class="token deleted">-    #gitalk: Load Gitalk</span>
+<span class="token inserted">+    #disqus:</span>
+<span class="token inserted">+    #  text: Load Disqus</span>
+<span class="token inserted">+    #  order: -1</span>
+<span class="token inserted">+    #facebook_comments_plugin:</span>
+<span class="token inserted">+    #  text: &lt;i class="fa fa-facebook-official" aria-hidden="true">&lt;/i> facebook</span>
+<span class="token inserted">+    #gitalk:</span>
+</code></pre>
 </p></details>
 
 <h3 id="Extract-all-share-systems-to-plugins-1104"><a href="#Extract-all-share-systems-to-plugins-1104" class="headerlink" title="Extract all share systems to plugins (#1104)"></a>Extract all share systems to plugins (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTEwNA==">#1104<i class="fa fa-external-link-alt"></i></span>)</h3><blockquote>
@@ -383,8 +402,44 @@
 <p>Latest docs can be found at <a href="/docs/third-party-services/post-widgets.html" title="Post Widgets | NexT">Post Widgets</a> and <a href="/docs/third-party-services/statistics-and-analytics.html" title="Statistics and Analytics | NexT">Statistics and Analytics</a>.</p>
 <h3 id="Refactor-vendors-1081"><a href="#Refactor-vendors-1081" class="headerlink" title="Refactor vendors (#1081)"></a>Refactor vendors (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTA4MQ==">#1081<i class="fa fa-external-link-alt"></i></span>)</h3><details><summary>Click to see configuration's changes</summary><p>
 
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">math:</span><br><span class="line"><span class="deletion">-  engine: mathjax</span></span><br><span class="line"><span class="deletion">-  #engine: katex</span></span><br><span class="line">  mathjax:</span><br><span class="line"><span class="deletion">-    cdn: //cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML</span></span><br><span class="line"><span class="deletion">-    #cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML</span></span><br><span class="line"><span class="addition">+    enable: false</span></span><br><span class="line"><span class="deletion">-    #mhchem: //cdn.jsdelivr.net/npm/mathjax-mhchem@3</span></span><br><span class="line"><span class="deletion">-    #mhchem: //cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.0</span></span><br><span class="line"><span class="addition">+    mhchem: false</span></span><br><span class="line">  katex:</span><br><span class="line"><span class="deletion">-    cdn: //cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css</span></span><br><span class="line"><span class="deletion">-    #cdn: //cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css</span></span><br><span class="line"><span class="addition">+    enable: false</span></span><br><span class="line"><span class="deletion">-    copy_tex:</span></span><br><span class="line"><span class="deletion">-      enable: false</span></span><br><span class="line"><span class="deletion">-      copy_tex_js: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.js</span></span><br><span class="line"><span class="deletion">-      copy_tex_css: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.css</span></span><br><span class="line"><span class="addition">+    copy_tex: false</span></span><br><span class="line"></span><br><span class="line">pdf:</span><br><span class="line"><span class="deletion">-  pdfobject:</span></span><br><span class="line"><span class="deletion">-    cdn: //cdn.jsdelivr.net/npm/pdfobject@2/pdfobject.min.js</span></span><br><span class="line"><span class="deletion">-    #cdn: //cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js</span></span><br><span class="line"></span><br><span class="line">mermaid:</span><br><span class="line"><span class="deletion">-  cdn: //cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js</span></span><br><span class="line"><span class="deletion">-  #cdn: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js</span></span><br><span class="line"></span><br><span class="line">vendors:</span><br><span class="line"><span class="addition">+  mathjax:</span></span><br><span class="line"><span class="addition">+  mhchem:</span></span><br><span class="line"><span class="addition">+  katex:</span></span><br><span class="line"><span class="addition">+  copy_tex_js:</span></span><br><span class="line"><span class="addition">+  copy_tex_css:</span></span><br><span class="line"><span class="addition">+  pdfobject:</span></span><br><span class="line"><span class="addition">+  mermaid:</span></span><br></pre></td></tr></table></figure>
+<pre class=" language-diff"><code class="language-diff">math:
+<span class="token deleted">-  engine: mathjax</span>
+<span class="token deleted">-  #engine: katex</span>
+  mathjax:
+<span class="token deleted">-    cdn: //cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML</span>
+<span class="token deleted">-    #cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML</span>
+<span class="token inserted">+    enable: false</span>
+<span class="token deleted">-    #mhchem: //cdn.jsdelivr.net/npm/mathjax-mhchem@3</span>
+<span class="token deleted">-    #mhchem: //cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.0</span>
+<span class="token inserted">+    mhchem: false</span>
+  katex:
+<span class="token deleted">-    cdn: //cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css</span>
+<span class="token deleted">-    #cdn: //cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css</span>
+<span class="token inserted">+    enable: false</span>
+<span class="token deleted">-    copy_tex:</span>
+<span class="token deleted">-      enable: false</span>
+<span class="token deleted">-      copy_tex_js: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.js</span>
+<span class="token deleted">-      copy_tex_css: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.css</span>
+<span class="token inserted">+    copy_tex: false</span>
 
+pdf:
+<span class="token deleted">-  pdfobject:</span>
+<span class="token deleted">-    cdn: //cdn.jsdelivr.net/npm/pdfobject@2/pdfobject.min.js</span>
+<span class="token deleted">-    #cdn: //cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js</span>
+
+mermaid:
+<span class="token deleted">-  cdn: //cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js</span>
+<span class="token deleted">-  #cdn: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js</span>
+
+vendors:
+<span class="token inserted">+  mathjax:</span>
+<span class="token inserted">+  mhchem:</span>
+<span class="token inserted">+  katex:</span>
+<span class="token inserted">+  copy_tex_js:</span>
+<span class="token inserted">+  copy_tex_css:</span>
+<span class="token inserted">+  pdfobject:</span>
+<span class="token inserted">+  mermaid:</span>
+</code></pre>
 </p></details>
 
 <h3 id="Remove-full-image-tag-1053"><a href="#Remove-full-image-tag-1053" class="headerlink" title="Remove full-image tag (#1053)"></a>Remove full-image tag (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTA1Mw==">#1053<i class="fa fa-external-link-alt"></i></span>)</h3><h2 id="🌟-New-Features"><a href="#🌟-New-Features" class="headerlink" title="🌟 New Features"></a>🌟 New Features</h2><ul>
@@ -470,8 +525,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -488,9 +543,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2019-07-31 19:19:11" itemprop="dateCreated datePublished" datetime="2019-07-31T19:19:11Z">2019-07-31</time>
+      <time title="创建时间：2019-07-31 19:19:11" itemprop="dateCreated datePublished" datetime="2019-07-31T19:19:11Z">2019-07-31</time>
     </span>
 
   
@@ -500,7 +555,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-7-3-0-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-7-3-0-released/" itemprop="commentCount"></span>
@@ -517,22 +572,80 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="💥-Breaking-Changes"><a href="#💥-Breaking-Changes" class="headerlink" title="💥 Breaking Changes"></a>💥 Breaking Changes</h2><h3 id="Use-em-instead-of-px-as-the-font-size-unit-1006"><a href="#Use-em-instead-of-px-as-the-font-size-unit-1006" class="headerlink" title="Use em instead of px as the font size unit (#1006)"></a>Use em instead of px as the font size unit (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTAwNg==">#1006<i class="fa fa-external-link-alt"></i></span>)</h3><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">font:</span><br><span class="line">...</span><br><span class="line">  # Font options:</span><br><span class="line">  # `external: true` will load this font family from `host` above.</span><br><span class="line">  # `family: Times New Roman`. Without any quotes.</span><br><span class="line"><span class="deletion">-  # `size: x.x`. Use `px` as unit. Default: 16</span></span><br><span class="line"><span class="addition">+  # `size: x.x`. Use `em` as unit. Default: 1 (16px)</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="Remove-fastclick-support-995"><a href="#Remove-fastclick-support-995" class="headerlink" title="Remove fastclick support (#995)"></a>Remove fastclick support (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTk1">#995<i class="fa fa-external-link-alt"></i></span>)</h3><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-# Polyfill to remove click delays on browsers with touch UIs.</span></span><br><span class="line"><span class="deletion">-# Dependencies: https://github.com/theme-next/theme-next-fastclick</span></span><br><span class="line"><span class="deletion">-fastclick: false</span></span><br><span class="line">...</span><br><span class="line">vendors:</span><br><span class="line">...</span><br><span class="line"><span class="deletion">-  # Internal version: 1.0.6</span></span><br><span class="line"><span class="deletion">-  # See: https://github.com/ftlabs/fastclick</span></span><br><span class="line"><span class="deletion">-  # Example:</span></span><br><span class="line"><span class="deletion">-  # fastclick: //cdn.jsdelivr.net/npm/fastclick@1/lib/fastclick.min.js</span></span><br><span class="line"><span class="deletion">-  # fastclick: //cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js</span></span><br><span class="line"><span class="deletion">-  fastclick:</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="Remove-baidushare-support-967"><a href="#Remove-baidushare-support-967" class="headerlink" title="Remove baidushare support (#967)"></a>Remove baidushare support (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTY3">#967<i class="fa fa-external-link-alt"></i></span>)</h3><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-# Baidu Share (does not support https).</span></span><br><span class="line"><span class="deletion">-baidushare:</span></span><br><span class="line"><span class="deletion">-  #type: button</span></span><br><span class="line"><span class="deletion">-  #type: slide</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="Refactor-several-components-in-config-yml-965"><a href="#Refactor-several-components-in-config-yml-965" class="headerlink" title="Refactor several components in _config.yml (#965)"></a>Refactor several components in <code>_config.yml</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTY1">#965<i class="fa fa-external-link-alt"></i></span>)</h3><h4 id="Remove-two-options-for-simplicity"><a href="#Remove-two-options-for-simplicity" class="headerlink" title="Remove two options for simplicity"></a>Remove two options for simplicity</h4><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">avatar:</span><br><span class="line">...</span><br><span class="line"><span class="deletion">-  # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.</span></span><br><span class="line"><span class="deletion">-  opacity: 1</span></span><br><span class="line">...</span><br><span class="line">codeblock:</span><br><span class="line"><span class="deletion">-  # Manual define the border radius in codeblock, leave it blank for the default value: 1</span></span><br><span class="line"><span class="deletion">-  border_radius:</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="Refactor-two-options"><a href="#Refactor-two-options" class="headerlink" title="Refactor two options"></a>Refactor two options</h4><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-custom_logo:</span></span><br><span class="line"><span class="deletion">-  enable: false</span></span><br><span class="line"><span class="deletion">-  image: #/uploads/custom-logo.jpg</span></span><br><span class="line"><span class="addition">+custom_logo: #/uploads/custom-logo.jpg</span></span><br><span class="line">...</span><br><span class="line"><span class="deletion">-# Code Highlight theme</span></span><br><span class="line"><span class="deletion">-# Available values: normal | night | night eighties | night blue | night bright</span></span><br><span class="line"><span class="deletion">-# https://github.com/chriskempson/tomorrow-theme</span></span><br><span class="line"><span class="deletion">-highlight_theme: normal</span></span><br><span class="line">codeblock:</span><br><span class="line"><span class="addition">+  # Code Highlight theme</span></span><br><span class="line"><span class="addition">+  # Available values: normal | night | night eighties | night blue | night bright</span></span><br><span class="line"><span class="addition">+  # See: https://github.com/chriskempson/tomorrow-theme</span></span><br><span class="line"><span class="addition">+  highlight_theme: normal</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="Refactor-option-and-parameters-for-page-loading-progress-bar"><a href="#Refactor-option-and-parameters-for-page-loading-progress-bar" class="headerlink" title="Refactor option and parameters for page loading progress bar"></a>Refactor option and parameters for page loading progress bar</h4><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-pace: false</span></span><br><span class="line"><span class="deletion">-# Themes list:</span></span><br><span class="line"><span class="deletion">-# pace-theme-big-counter | pace-theme-bounce | pace-theme-barber-shop | pace-theme-center-atom</span></span><br><span class="line"><span class="deletion">-# pace-theme-center-circle | pace-theme-center-radar | pace-theme-center-simple | pace-theme-corner-indicator</span></span><br><span class="line"><span class="deletion">-# pace-theme-fill-left | pace-theme-flash | pace-theme-loading-bar | pace-theme-mac-osx | pace-theme-minimal</span></span><br><span class="line"><span class="deletion">-pace_theme: pace-theme-minimal</span></span><br><span class="line"><span class="addition">+pace:</span></span><br><span class="line"><span class="addition">+  enable: false</span></span><br><span class="line"><span class="addition">+  # Themes list:</span></span><br><span class="line"><span class="addition">+  # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple</span></span><br><span class="line"><span class="addition">+  # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal</span></span><br><span class="line"><span class="addition">+  theme: minimal</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="Refactor-sidebar-dimmer-964"><a href="#Refactor-sidebar-dimmer-964" class="headerlink" title="Refactor sidebar-dimmer (#964)"></a>Refactor sidebar-dimmer (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTY0">#964<i class="fa fa-external-link-alt"></i></span>)</h3><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">sidebar:</span><br><span class="line">...</span><br><span class="line"><span class="deletion">-  # Click any blank part of the page to close sidebar (only for Muse | Mist).</span></span><br><span class="line"><span class="deletion">-  dimmer: false</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="Make-sidebar-position-optional-for-all-schemes-952"><a href="#Make-sidebar-position-optional-for-all-schemes-952" class="headerlink" title="Make sidebar position optional for all schemes (#952)"></a>Make sidebar position optional for all schemes (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTUy">#952<i class="fa fa-external-link-alt"></i></span>)</h3><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">sidebar:</span><br><span class="line"><span class="deletion">-  # Sidebar Position, available values: left | right (only for Pisces | Gemini).</span></span><br><span class="line"><span class="addition">+  # Sidebar Position.</span></span><br><span class="line">  position: left</span><br><span class="line">  #position: right</span><br></pre></td></tr></table></figure>
-
+          <h2 id="💥-Breaking-Changes"><a href="#💥-Breaking-Changes" class="headerlink" title="💥 Breaking Changes"></a>💥 Breaking Changes</h2><h3 id="Use-em-instead-of-px-as-the-font-size-unit-1006"><a href="#Use-em-instead-of-px-as-the-font-size-unit-1006" class="headerlink" title="Use em instead of px as the font size unit (#1006)"></a>Use em instead of px as the font size unit (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTAwNg==">#1006<i class="fa fa-external-link-alt"></i></span>)</h3><pre class=" language-diff"><code class="language-diff">font:
+...
+  # Font options:
+  # `external: true` will load this font family from `host` above.
+  # `family: Times New Roman`. Without any quotes.
+<span class="token deleted">-  # `size: x.x`. Use `px` as unit. Default: 16</span>
+<span class="token inserted">+  # `size: x.x`. Use `em` as unit. Default: 1 (16px)</span>
+</code></pre>
+<h3 id="Remove-fastclick-support-995"><a href="#Remove-fastclick-support-995" class="headerlink" title="Remove fastclick support (#995)"></a>Remove fastclick support (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTk1">#995<i class="fa fa-external-link-alt"></i></span>)</h3><pre class=" language-diff"><code class="language-diff"><span class="token deleted">-# Polyfill to remove click delays on browsers with touch UIs.</span>
+<span class="token deleted">-# Dependencies: https://github.com/theme-next/theme-next-fastclick</span>
+<span class="token deleted">-fastclick: false</span>
+...
+vendors:
+...
+<span class="token deleted">-  # Internal version: 1.0.6</span>
+<span class="token deleted">-  # See: https://github.com/ftlabs/fastclick</span>
+<span class="token deleted">-  # Example:</span>
+<span class="token deleted">-  # fastclick: //cdn.jsdelivr.net/npm/fastclick@1/lib/fastclick.min.js</span>
+<span class="token deleted">-  # fastclick: //cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js</span>
+<span class="token deleted">-  fastclick:</span>
+</code></pre>
+<h3 id="Remove-baidushare-support-967"><a href="#Remove-baidushare-support-967" class="headerlink" title="Remove baidushare support (#967)"></a>Remove baidushare support (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTY3">#967<i class="fa fa-external-link-alt"></i></span>)</h3><pre class=" language-diff"><code class="language-diff"><span class="token deleted">-# Baidu Share (does not support https).</span>
+<span class="token deleted">-baidushare:</span>
+<span class="token deleted">-  #type: button</span>
+<span class="token deleted">-  #type: slide</span>
+</code></pre>
+<h3 id="Refactor-several-components-in-config-yml-965"><a href="#Refactor-several-components-in-config-yml-965" class="headerlink" title="Refactor several components in _config.yml (#965)"></a>Refactor several components in <code>_config.yml</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTY1">#965<i class="fa fa-external-link-alt"></i></span>)</h3><h4 id="Remove-two-options-for-simplicity"><a href="#Remove-two-options-for-simplicity" class="headerlink" title="Remove two options for simplicity"></a>Remove two options for simplicity</h4><pre class=" language-diff"><code class="language-diff">avatar:
+...
+<span class="token deleted">-  # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.</span>
+<span class="token deleted">-  opacity: 1</span>
+...
+codeblock:
+<span class="token deleted">-  # Manual define the border radius in codeblock, leave it blank for the default value: 1</span>
+<span class="token deleted">-  border_radius:</span>
+</code></pre>
+<h4 id="Refactor-two-options"><a href="#Refactor-two-options" class="headerlink" title="Refactor two options"></a>Refactor two options</h4><pre class=" language-diff"><code class="language-diff"><span class="token deleted">-custom_logo:</span>
+<span class="token deleted">-  enable: false</span>
+<span class="token deleted">-  image: #/uploads/custom-logo.jpg</span>
+<span class="token inserted">+custom_logo: #/uploads/custom-logo.jpg</span>
+...
+<span class="token deleted">-# Code Highlight theme</span>
+<span class="token deleted">-# Available values: normal | night | night eighties | night blue | night bright</span>
+<span class="token deleted">-# https://github.com/chriskempson/tomorrow-theme</span>
+<span class="token deleted">-highlight_theme: normal</span>
+codeblock:
+<span class="token inserted">+  # Code Highlight theme</span>
+<span class="token inserted">+  # Available values: normal | night | night eighties | night blue | night bright</span>
+<span class="token inserted">+  # See: https://github.com/chriskempson/tomorrow-theme</span>
+<span class="token inserted">+  highlight_theme: normal</span>
+</code></pre>
+<h4 id="Refactor-option-and-parameters-for-page-loading-progress-bar"><a href="#Refactor-option-and-parameters-for-page-loading-progress-bar" class="headerlink" title="Refactor option and parameters for page loading progress bar"></a>Refactor option and parameters for page loading progress bar</h4><pre class=" language-diff"><code class="language-diff"><span class="token deleted">-pace: false</span>
+<span class="token deleted">-# Themes list:</span>
+<span class="token deleted">-# pace-theme-big-counter | pace-theme-bounce | pace-theme-barber-shop | pace-theme-center-atom</span>
+<span class="token deleted">-# pace-theme-center-circle | pace-theme-center-radar | pace-theme-center-simple | pace-theme-corner-indicator</span>
+<span class="token deleted">-# pace-theme-fill-left | pace-theme-flash | pace-theme-loading-bar | pace-theme-mac-osx | pace-theme-minimal</span>
+<span class="token deleted">-pace_theme: pace-theme-minimal</span>
+<span class="token inserted">+pace:</span>
+<span class="token inserted">+  enable: false</span>
+<span class="token inserted">+  # Themes list:</span>
+<span class="token inserted">+  # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple</span>
+<span class="token inserted">+  # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal</span>
+<span class="token inserted">+  theme: minimal</span>
+</code></pre>
+<h3 id="Refactor-sidebar-dimmer-964"><a href="#Refactor-sidebar-dimmer-964" class="headerlink" title="Refactor sidebar-dimmer (#964)"></a>Refactor sidebar-dimmer (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTY0">#964<i class="fa fa-external-link-alt"></i></span>)</h3><pre class=" language-diff"><code class="language-diff">sidebar:
+...
+<span class="token deleted">-  # Click any blank part of the page to close sidebar (only for Muse | Mist).</span>
+<span class="token deleted">-  dimmer: false</span>
+</code></pre>
+<h3 id="Make-sidebar-position-optional-for-all-schemes-952"><a href="#Make-sidebar-position-optional-for-all-schemes-952" class="headerlink" title="Make sidebar position optional for all schemes (#952)"></a>Make sidebar position optional for all schemes (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTUy">#952<i class="fa fa-external-link-alt"></i></span>)</h3><pre class=" language-diff"><code class="language-diff">sidebar:
+<span class="token deleted">-  # Sidebar Position, available values: left | right (only for Pisces | Gemini).</span>
+<span class="token inserted">+  # Sidebar Position.</span>
+  position: left
+  #position: right
+</code></pre>
 <h2 id="🌀-External-Changes"><a href="#🌀-External-Changes" class="headerlink" title="🌀 External Changes"></a>🌀 External Changes</h2><ul>
 <li>Configure JSHint (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTAzNQ==">#1035<i class="fa fa-external-link-alt"></i></span>)</li>
 <li>Update reading_progress vendor version number (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTQ2">#946<i class="fa fa-external-link-alt"></i></span>)</li>
@@ -623,8 +736,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -641,9 +754,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2019-07-01 14:21:33" itemprop="dateCreated datePublished" datetime="2019-07-01T14:21:33Z">2019-07-01</time>
+      <time title="创建时间：2019-07-01 14:21:33" itemprop="dateCreated datePublished" datetime="2019-07-01T14:21:33Z">2019-07-01</time>
     </span>
 
   
@@ -653,7 +766,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-7-2-0-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-7-2-0-released/" itemprop="commentCount"></span>
@@ -671,11 +784,34 @@
     
     <div class="post-body" itemprop="articleBody">
           <h2 id="💥-Breaking-Changes"><a href="#💥-Breaking-Changes" class="headerlink" title="💥 Breaking Changes"></a>💥 Breaking Changes</h2><h3 id="Remove-gitment-support-939"><a href="#Remove-gitment-support-939" class="headerlink" title="Remove gitment support (#939)"></a>Remove gitment support (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTM5">#939<i class="fa fa-external-link-alt"></i></span>)</h3><p>In NexT <code>_config.yml</code>:</p>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-# Gitment</span></span><br><span class="line"><span class="deletion">-# Introduction: https://github.com/imsun/gitment</span></span><br><span class="line"><span class="deletion">-gitment:</span></span><br><span class="line"><span class="deletion">-  enable: false</span></span><br><span class="line"><span class="deletion">-  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway</span></span><br><span class="line"><span class="deletion">-  count: true # Show comments count in post meta area</span></span><br><span class="line"><span class="deletion">-  lazy: false # Comments lazy loading with a button</span></span><br><span class="line"><span class="deletion">-  cleanly: false # Hide &#x27;Powered by ...&#x27; on footer, and more</span></span><br><span class="line"><span class="deletion">-  language: # Force language, or auto switch by theme</span></span><br><span class="line"><span class="deletion">-  github_user: # MUST HAVE, Your Github Username</span></span><br><span class="line"><span class="deletion">-  github_repo: # MUST HAVE, The name of the repo you use to store Gitment comments</span></span><br><span class="line"><span class="deletion">-  client_id: # MUST HAVE, Github client id for the Gitment</span></span><br><span class="line"><span class="deletion">-  client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment</span></span><br><span class="line"><span class="deletion">-  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect</span></span><br><span class="line"><span class="deletion">-  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled</span></span><br></pre></td></tr></table></figure>
-
+<pre class=" language-diff"><code class="language-diff"><span class="token deleted">-# Gitment</span>
+<span class="token deleted">-# Introduction: https://github.com/imsun/gitment</span>
+<span class="token deleted">-gitment:</span>
+<span class="token deleted">-  enable: false</span>
+<span class="token deleted">-  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway</span>
+<span class="token deleted">-  count: true # Show comments count in post meta area</span>
+<span class="token deleted">-  lazy: false # Comments lazy loading with a button</span>
+<span class="token deleted">-  cleanly: false # Hide 'Powered by ...' on footer, and more</span>
+<span class="token deleted">-  language: # Force language, or auto switch by theme</span>
+<span class="token deleted">-  github_user: # MUST HAVE, Your Github Username</span>
+<span class="token deleted">-  github_repo: # MUST HAVE, The name of the repo you use to store Gitment comments</span>
+<span class="token deleted">-  client_id: # MUST HAVE, Github client id for the Gitment</span>
+<span class="token deleted">-  client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment</span>
+<span class="token deleted">-  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect</span>
+<span class="token deleted">-  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled</span>
+</code></pre>
 <h3 id="Remove-Han-support-912"><a href="#Remove-Han-support-912" class="headerlink" title="Remove Han support (#912)"></a>Remove Han support (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTEy">#912<i class="fa fa-external-link-alt"></i></span>)</h3><p>In NexT <code>_config.yml</code>:</p>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-# Han Support</span></span><br><span class="line"><span class="deletion">-# Dependencies: https://github.com/theme-next/theme-next-han</span></span><br><span class="line"><span class="deletion">-han: false</span></span><br><span class="line"><span class="deletion">-</span></span><br><span class="line"><span class="deletion">-  # Internal version: 3.3.0</span></span><br><span class="line"><span class="deletion">-  # See: https://github.com/ethantw/Han</span></span><br><span class="line"><span class="deletion">-  # Example:</span></span><br><span class="line"><span class="deletion">-  # han: //cdn.jsdelivr.net/npm/han-css@3/dist/han.min.css</span></span><br><span class="line"><span class="deletion">-  # han: //cdnjs.cloudflare.com/ajax/libs/Han/3.3.0/han.min.css</span></span><br><span class="line"><span class="deletion">-  han:</span></span><br></pre></td></tr></table></figure>
-
+<pre class=" language-diff"><code class="language-diff"><span class="token deleted">-# Han Support</span>
+<span class="token deleted">-# Dependencies: https://github.com/theme-next/theme-next-han</span>
+<span class="token deleted">-han: false</span>
+<span class="token deleted">-</span>
+<span class="token deleted">-  # Internal version: 3.3.0</span>
+<span class="token deleted">-  # See: https://github.com/ethantw/Han</span>
+<span class="token deleted">-  # Example:</span>
+<span class="token deleted">-  # han: //cdn.jsdelivr.net/npm/han-css@3/dist/han.min.css</span>
+<span class="token deleted">-  # han: //cdnjs.cloudflare.com/ajax/libs/Han/3.3.0/han.min.css</span>
+<span class="token deleted">-  han:</span>
+</code></pre>
 <h2 id="🌀-External-Changes"><a href="#🌀-External-Changes" class="headerlink" title="🌀 External Changes"></a>🌀 External Changes</h2><ul>
 <li>Remove unneeded leancloud-storage in <code>theme.vendors</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTI3">#927<i class="fa fa-external-link-alt"></i></span>)</li>
 <li>Make Valine available (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTI2">#926<i class="fa fa-external-link-alt"></i></span>)</li>
@@ -725,7 +861,7 @@
 
 
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/8/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><span class="page-number current">9</span><a class="page-number" href="/page/10/">10</a><span class="space">&hellip;</span><a class="page-number" href="/page/15/">15</a><a class="extend next" rel="next" href="/page/10/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+    <a class="extend prev" rel="prev" href="/page/8/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><span class="page-number current">9</span><a class="page-number" href="/page/10/">10</a><span class="space">&hellip;</span><a class="page-number" href="/page/15/">15</a><a class="extend next" rel="next" href="/page/10/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 </div>
@@ -743,11 +879,12 @@
   </span>
   <span class="author" itemprop="copyrightHolder">NexT</span>
 </div>
-  <div class="powered-by">Powered by <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <a href="https://theme-next.js.org/">NexT.Gemini</a>
+  <div class="powered-by">由 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <a href="https://theme-next.js.org/">NexT.Gemini</a> 强力驱动
   </div><div class="footer-custom">
-Website source code <span class="exturl theme-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG8tbmV4dC9oZXhvLW5leHQuZ2l0aHViLmlv">here</span>
+  <div class="powered-by">由 <a href="https://github.com/next-theme/theme-next-docs" class="theme-link" rel="noopener" target="_blank">Hexo</a> v8.0.0 驱动</div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://github.com/next-theme/hexo-theme-next" class="theme-link" rel="noopener" target="_blank">Hexo.NexT</a> v8.0.0</div>
 </div>
-
 
     </div>
   </footer>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
@@ -20,13 +20,13 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"theme-next.js.org","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.10.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.json","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.10.0/source/js/config.min.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"theme-next.js.org","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.10.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.json","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.10.0/source/js/config.min.js"></script>
 
   <meta property="og:type" content="website">
 <meta property="og:title" content="NexT">
 <meta property="og:url" content="https://theme-next.js.org/page/8/index.html">
 <meta property="og:site_name" content="NexT">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="Hexo, NexT">
 <meta name="twitter:card" content="summary">
@@ -36,10 +36,10 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"en","comments":"","permalink":"","path":"page/8/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"page/8/index.html","title":""}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>NexT - Theme for Hexo</title>
+<title>NexT</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108155018-3"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"UA-108155018-3","only_pageview":false}</script>
@@ -53,7 +53,7 @@
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
 <link rel="alternate" href="/atom.xml" title="NexT" type="application/atom+xml">
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
@@ -62,7 +62,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+    <div class="toggle" aria-label="切换导航栏" role="button">
         <span class="toggle-line"></span>
         <span class="toggle-line"></span>
         <span class="toggle-line"></span>
@@ -76,7 +76,6 @@
       <h1 class="site-title">NexT</h1>
       <i class="logo-line"></i>
     </a>
-      <p class="site-subtitle" itemprop="description">Theme for Hexo</p>
   </div>
 
   <div class="site-nav-right">
@@ -90,7 +89,7 @@
 
 <nav class="site-nav">
   <ul class="main-menu menu">
-        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-bell fa-fw"></i>Home</a></li>
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-bell fa-fw"></i>首页</a></li>
         
             
   <li class="menu-item menu-item-docs"><a href="/docs/" rel="section"><i class="fa fa-book fa-fw"></i>Docs</a></li>
@@ -98,9 +97,10 @@
 
       
         <li class="menu-item menu-item-plugins"><a href="/plugins/" rel="section"><i class="fa fa-flask fa-fw"></i>Plugins</a></li>
-        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">58</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>博客<span class="badge">58</span></a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-fw fa-th fa-fw"></i>分类<span class="badge">0</span></a></li>
       <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
       </li>
   </ul>
@@ -115,7 +115,7 @@
   </span>
   <div class="search-input-container">
     <input autocomplete="off" autocapitalize="off" maxlength="80"
-           placeholder="Searching..." spellcheck="false"
+           placeholder="搜索..." spellcheck="false"
            type="search" class="search-input">
   </div>
   <span class="popup-btn-close" role="button">
@@ -145,10 +145,10 @@
     <div class="sidebar-inner sidebar-overview-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          站点概览
         </li>
       </ul>
 
@@ -160,17 +160,17 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Theme NexT"
+    <img class="site-author-image" itemprop="image" alt="John Doe"
       src="/images/logo.svg">
-  <p class="site-author-name" itemprop="name">Theme NexT</p>
-  <div class="site-description" itemprop="description">Stay Simple. Stay NexT.</div>
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
           <span class="site-state-item-count">58</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
   </nav>
@@ -202,7 +202,7 @@
     </header>
 
     
-  <div class="back-to-top" role="button" aria-label="Back to top">
+  <div class="back-to-top" role="button" aria-label="返回顶部">
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
@@ -228,8 +228,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -246,9 +246,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2020-01-01 06:23:21" itemprop="dateCreated datePublished" datetime="2020-01-01T06:23:21Z">2020-01-01</time>
+      <time title="创建时间：2020-01-01 06:23:21" itemprop="dateCreated datePublished" datetime="2020-01-01T06:23:21Z">2020-01-01</time>
     </span>
 
   
@@ -258,7 +258,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-7-7-0-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-7-7-0-released/" itemprop="commentCount"></span>
@@ -275,8 +275,32 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="💥-Breaking-Changes"><a href="#💥-Breaking-Changes" class="headerlink" title="💥 Breaking Changes"></a>💥 Breaking Changes</h2><h3 id="Make-lazyload-amp-PJAX-available-for-all-comment-systems-1152"><a href="#Make-lazyload-amp-PJAX-available-for-all-comment-systems-1152" class="headerlink" title="Make lazyload &amp; PJAX available for all comment systems (#1152)"></a>Make lazyload &amp; PJAX available for all comment systems (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTE1Mg==">#1152<i class="fa fa-external-link-alt"></i></span>)</h3><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"># Multiple Comment System Support</span><br><span class="line">comments:</span><br><span class="line">  # Available values: tabs | buttons</span><br><span class="line">  style: tabs</span><br><span class="line">  # Choose a comment system to be displayed by default.</span><br><span class="line">  # Available values: changyan | disqus | disqusjs | gitalk | livere | valine</span><br><span class="line">  active:</span><br><span class="line">  # Setting `true` means remembering the comment system selected by the visitor.</span><br><span class="line">  storage: true</span><br><span class="line"><span class="addition">+  # Lazyload all comment systems.</span></span><br><span class="line"><span class="addition">+  lazyload: false</span></span><br><span class="line">  # Modify texts or order for any naves, here are some examples.</span><br><span class="line">  nav:</span><br><span class="line">    #disqus:</span><br><span class="line">    #  text: Load Disqus</span><br><span class="line">    #  order: -1</span><br><span class="line">    #gitalk:</span><br><span class="line">    #  order: -2</span><br><span class="line"># Disqus</span><br><span class="line">disqus:</span><br><span class="line">  enable: false</span><br><span class="line">  shortname:</span><br><span class="line">  count: true</span><br><span class="line"><span class="deletion">-  lazyload: false</span></span><br><span class="line">  #post_meta_order: 0</span><br></pre></td></tr></table></figure>
-
+          <h2 id="💥-Breaking-Changes"><a href="#💥-Breaking-Changes" class="headerlink" title="💥 Breaking Changes"></a>💥 Breaking Changes</h2><h3 id="Make-lazyload-amp-PJAX-available-for-all-comment-systems-1152"><a href="#Make-lazyload-amp-PJAX-available-for-all-comment-systems-1152" class="headerlink" title="Make lazyload &amp; PJAX available for all comment systems (#1152)"></a>Make lazyload &amp; PJAX available for all comment systems (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTE1Mg==">#1152<i class="fa fa-external-link-alt"></i></span>)</h3><pre class=" language-diff"><code class="language-diff"># Multiple Comment System Support
+comments:
+  # Available values: tabs | buttons
+  style: tabs
+  # Choose a comment system to be displayed by default.
+  # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
+  active:
+  # Setting `true` means remembering the comment system selected by the visitor.
+  storage: true
+<span class="token inserted">+  # Lazyload all comment systems.</span>
+<span class="token inserted">+  lazyload: false</span>
+  # Modify texts or order for any naves, here are some examples.
+  nav:
+    #disqus:
+    #  text: Load Disqus
+    #  order: -1
+    #gitalk:
+    #  order: -2
+# Disqus
+disqus:
+  enable: false
+  shortname:
+  count: true
+<span class="token deleted">-  lazyload: false</span>
+  #post_meta_order: 0
+</code></pre>
 <h2 id="🐞-Bug-Fixes"><a href="#🐞-Bug-Fixes" class="headerlink" title="🐞 Bug Fixes"></a>🐞 Bug Fixes</h2><ul>
 <li>Fix Gitalk distractionFreeMode invalid bug (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTMyNg==">#1326<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
@@ -317,8 +341,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -335,9 +359,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2019-12-01 09:30:19" itemprop="dateCreated datePublished" datetime="2019-12-01T09:30:19Z">2019-12-01</time>
+      <time title="创建时间：2019-12-01 09:30:19" itemprop="dateCreated datePublished" datetime="2019-12-01T09:30:19Z">2019-12-01</time>
     </span>
 
   
@@ -347,7 +371,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-7-6-0-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-7-6-0-released/" itemprop="commentCount"></span>
@@ -364,14 +388,58 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="💥-Breaking-Changes"><a href="#💥-Breaking-Changes" class="headerlink" title="💥 Breaking Changes"></a>💥 Breaking Changes</h2><h3 id="Remove-rss-button-1291"><a href="#Remove-rss-button-1291" class="headerlink" title="Remove rss button (#1291)"></a>Remove rss button (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTI5MQ==">#1291<i class="fa fa-external-link-alt"></i></span>)</h3><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-# hexo-generator-feed required for rss support. Leave rss as blank to use site&#x27;s feed link.</span></span><br><span class="line"><span class="deletion">-# Set rss to false to disable feed link. Set rss to specific value if you have burned your feed already.</span></span><br><span class="line"><span class="deletion">-rss:</span></span><br><span class="line">...</span><br><span class="line"># Social Links</span><br><span class="line"># Usage: `Key: permalink || icon`</span><br><span class="line"># Key is the link label showing to end users.</span><br><span class="line"># Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.</span><br><span class="line">social:</span><br><span class="line">...</span><br><span class="line"><span class="deletion">-  #VK Group: https://vk.com/yourname || vk</span></span><br><span class="line">...</span><br><span class="line"><span class="addition">+  #RSS: /atom.xml || rss</span></span><br></pre></td></tr></table></figure>
-<h3 id="Remove-cheers-and-auto-excerpt-1284"><a href="#Remove-cheers-and-auto-excerpt-1284" class="headerlink" title="Remove cheers and auto_excerpt (#1284)"></a>Remove cheers and auto_excerpt (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTI4NA==">#1284<i class="fa fa-external-link-alt"></i></span>)</h3><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-# Automatically excerpt (Not recommend).</span></span><br><span class="line"><span class="deletion">-# Use &lt;!-- more --&gt; in the post to control excerpt accurately.</span></span><br><span class="line"><span class="deletion">-auto_excerpt:</span></span><br><span class="line"><span class="deletion">-  enable: false</span></span><br><span class="line"><span class="deletion">-  length: 150</span></span><br><span class="line">...</span><br><span class="line"><span class="deletion">-# Enable \&quot;cheers\&quot; for archive page.</span></span><br><span class="line"><span class="deletion">-cheers: true</span></span><br></pre></td></tr></table></figure>
+          <h2 id="💥-Breaking-Changes"><a href="#💥-Breaking-Changes" class="headerlink" title="💥 Breaking Changes"></a>💥 Breaking Changes</h2><h3 id="Remove-rss-button-1291"><a href="#Remove-rss-button-1291" class="headerlink" title="Remove rss button (#1291)"></a>Remove rss button (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTI5MQ==">#1291<i class="fa fa-external-link-alt"></i></span>)</h3><pre class=" language-diff"><code class="language-diff"><span class="token deleted">-# hexo-generator-feed required for rss support. Leave rss as blank to use site's feed link.</span>
+<span class="token deleted">-# Set rss to false to disable feed link. Set rss to specific value if you have burned your feed already.</span>
+<span class="token deleted">-rss:</span>
+...
+# Social Links
+# Usage: `Key: permalink || icon`
+# Key is the link label showing to end users.
+# Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
+social:
+...
+<span class="token deleted">-  #VK Group: https://vk.com/yourname || vk</span>
+...
+<span class="token inserted">+  #RSS: /atom.xml || rss</span>
+</code></pre>
+<h3 id="Remove-cheers-and-auto-excerpt-1284"><a href="#Remove-cheers-and-auto-excerpt-1284" class="headerlink" title="Remove cheers and auto_excerpt (#1284)"></a>Remove cheers and auto_excerpt (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTI4NA==">#1284<i class="fa fa-external-link-alt"></i></span>)</h3><pre class=" language-diff"><code class="language-diff"><span class="token deleted">-# Automatically excerpt (Not recommend).</span>
+<span class="token deleted">-# Use &lt;!-- more --> in the post to control excerpt accurately.</span>
+<span class="token deleted">-auto_excerpt:</span>
+<span class="token deleted">-  enable: false</span>
+<span class="token deleted">-  length: 150</span>
+...
+<span class="token deleted">-# Enable \"cheers\" for archive page.</span>
+<span class="token deleted">-cheers: true</span>
+</code></pre>
 <h3 id="Drop-NodeJs-8-support-amp-Require-NodeJs-gt-x3D-10-1269"><a href="#Drop-NodeJs-8-support-amp-Require-NodeJs-gt-x3D-10-1269" class="headerlink" title="Drop NodeJs 8 support &amp; Require NodeJs &gt;&#x3D; 10 (#1269)"></a>Drop NodeJs 8 support &amp; Require NodeJs &gt;&#x3D; 10 (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTI2OQ==">#1269<i class="fa fa-external-link-alt"></i></span>)</h3><h3 id="Refactor-front-matter-make-it-has-the-same-key-as-the-configuration-file-1211"><a href="#Refactor-front-matter-make-it-has-the-same-key-as-the-configuration-file-1211" class="headerlink" title="Refactor front-matter: make it has the same key as the configuration file (#1211)"></a>Refactor front-matter: make it has the same key as the configuration file (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTIxMQ==">#1211<i class="fa fa-external-link-alt"></i></span>)</h3><p>In <strong>post front-matter</strong>:</p>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">toc:</span><br><span class="line">  enable: true</span><br><span class="line">  number: false</span><br><span class="line">  max_depth: 3</span><br><span class="line">reward_settings:</span><br><span class="line">  enable: true</span><br><span class="line">  comment: Donate comment here.</span><br><span class="line">quicklink:</span><br><span class="line">  enable: true</span><br><span class="line">  delay: true</span><br><span class="line">  timeout: 3000</span><br><span class="line">  priority: true</span><br><span class="line"></span><br><span class="line"># Some deprecated</span><br><span class="line"><span class="deletion">-  toc_max_depth: 4</span></span><br><span class="line"><span class="deletion">-  toc_number: true</span></span><br><span class="line"><span class="deletion">-  reward: true</span></span><br><span class="line"><span class="deletion">-  quicklink: true</span></span><br></pre></td></tr></table></figure>
+<pre class=" language-diff"><code class="language-diff">toc:
+  enable: true
+  number: false
+  max_depth: 3
+reward_settings:
+  enable: true
+  comment: Donate comment here.
+quicklink:
+  enable: true
+  delay: true
+  timeout: 3000
+  priority: true
 
+# Some deprecated
+<span class="token deleted">-  toc_max_depth: 4</span>
+<span class="token deleted">-  toc_number: true</span>
+<span class="token deleted">-  reward: true</span>
+<span class="token deleted">-  quicklink: true</span>
+</code></pre>
 <p>In theme&#39;s <strong>_config.yml</strong>:</p>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">quicklink:</span><br><span class="line">  # Home page and archive page can be controlled through home and archive options below.</span><br><span class="line"><span class="deletion">-  home: true</span></span><br><span class="line"><span class="deletion">-  archive: true</span></span><br><span class="line"><span class="addition">+  # This configuration item is independent of `enable`.</span></span><br><span class="line"><span class="addition">+  home: false</span></span><br><span class="line"><span class="addition">+  archive: false</span></span><br></pre></td></tr></table></figure>
-
+<pre class=" language-diff"><code class="language-diff">quicklink:
+  # Home page and archive page can be controlled through home and archive options below.
+<span class="token deleted">-  home: true</span>
+<span class="token deleted">-  archive: true</span>
+<span class="token inserted">+  # This configuration item is independent of `enable`.</span>
+<span class="token inserted">+  home: false</span>
+<span class="token inserted">+  archive: false</span>
+</code></pre>
 <h2 id="⭐-Features"><a href="#⭐-Features" class="headerlink" title="⭐ Features"></a>⭐ Features</h2><ul>
 <li>Set inject default extname from file&#39;s extname (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTI4MQ==">#1281<i class="fa fa-external-link-alt"></i></span>)</li>
 <li>Adjust copy-button style (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTI3Nw==">#1277<i class="fa fa-external-link-alt"></i></span>)</li>
@@ -421,8 +489,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -439,9 +507,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2019-11-01 11:23:23" itemprop="dateCreated datePublished" datetime="2019-11-01T11:23:23Z">2019-11-01</time>
+      <time title="创建时间：2019-11-01 11:23:23" itemprop="dateCreated datePublished" datetime="2019-11-01T11:23:23Z">2019-11-01</time>
     </span>
 
   
@@ -451,7 +519,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-7-5-0-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-7-5-0-released/" itemprop="commentCount"></span>
@@ -469,7 +537,10 @@
     
     <div class="post-body" itemprop="articleBody">
           <h2 id="⭐-Features"><a href="#⭐-Features" class="headerlink" title="⭐ Features"></a>⭐ Features</h2><ul>
-<li>Extract some features to plugins (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTIzMg==">#1232<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-# Automatically scroll page to section which is under &lt;!-- more --&gt; mark.</span></span><br><span class="line"><span class="deletion">-scroll_to_more: true</span></span><br></pre></td></tr></table></figure></li>
+<li>Extract some features to plugins (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTIzMg==">#1232<i class="fa fa-external-link-alt"></i></span>)<pre class=" language-diff"><code class="language-diff"><span class="token deleted">-# Automatically scroll page to section which is under &lt;!-- more --> mark.</span>
+<span class="token deleted">-scroll_to_more: true</span>
+</code></pre>
+</li>
 <li>Migrate to Nunjucks (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTIxNQ==">#1215<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTIxOA==">#1218<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTIyMA==">#1220<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTIyNg==">#1226<i class="fa fa-external-link-alt"></i></span>)</li>
 <li>Delete query strings (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTYz">#963<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
@@ -518,8 +589,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -536,9 +607,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2019-10-20 10:15:25" itemprop="dateCreated datePublished" datetime="2019-10-20T10:15:25Z">2019-10-20</time>
+      <time title="创建时间：2019-10-20 10:15:25" itemprop="dateCreated datePublished" datetime="2019-10-20T10:15:25Z">2019-10-20</time>
     </span>
 
   
@@ -548,7 +619,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-7-4-2-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-7-4-2-released/" itemprop="commentCount"></span>
@@ -578,7 +649,7 @@
 <li>Code style update (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTE5Nw==">#1197<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTIwNQ==">#1205<i class="fa fa-external-link-alt"></i></span>)</li>
 <li>Replace id with class name (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTIwOQ==">#1209<i class="fa fa-external-link-alt"></i></span>)</li>
 <li>Add lang attribute to article tag when specified in front matter (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTE5OQ==">#1199<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Fix compatibility issues with <span class="exturl" data-url="bWFpbHRvOiYjMTA0OyYjeDY1OyYjeDc4OyYjMTExOyYjeDJkOyYjeDc1OyYjMTE2OyYjeDY5OyYjMTA4OyYjNjQ7JiM0OTsmI3gyZTsmIzUxOyYjNDY7JiM0ODs=">&#104;&#x65;&#x78;&#111;&#x2d;&#x75;&#116;&#x69;&#108;&#64;&#49;&#x2e;&#51;&#46;&#48;<i class="fa fa-external-link-alt"></i></span> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTE3NQ==">#1175<i class="fa fa-external-link-alt"></i></span>)</li>
+<li>Fix compatibility issues with <span class="exturl" data-url="bWFpbHRvOiYjMTA0OyYjeDY1OyYjMTIwOyYjeDZmOyYjeDJkOyYjMTE3OyYjeDc0OyYjMTA1OyYjMTA4OyYjNjQ7JiN4MzE7JiM0NjsmIzUxOyYjNDY7JiM0ODs=">&#104;&#x65;&#120;&#x6f;&#x2d;&#117;&#x74;&#105;&#108;&#64;&#x31;&#46;&#51;&#46;&#48;<i class="fa fa-external-link-alt"></i></span> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTE3NQ==">#1175<i class="fa fa-external-link-alt"></i></span>)</li>
 <li>Optimize the loading of three.js (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTE0MA==">#1140<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
 <h2 id="📖-Documentation"><a href="#📖-Documentation" class="headerlink" title="📖 Documentation"></a>📖 Documentation</h2><ul>
@@ -606,7 +677,7 @@
 
 
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/7/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><span class="page-number current">8</span><a class="page-number" href="/page/9/">9</a><span class="space">&hellip;</span><a class="page-number" href="/page/15/">15</a><a class="extend next" rel="next" href="/page/9/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+    <a class="extend prev" rel="prev" href="/page/7/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><span class="page-number current">8</span><a class="page-number" href="/page/9/">9</a><span class="space">&hellip;</span><a class="page-number" href="/page/15/">15</a><a class="extend next" rel="next" href="/page/9/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 </div>
@@ -624,11 +695,12 @@
   </span>
   <span class="author" itemprop="copyrightHolder">NexT</span>
 </div>
-  <div class="powered-by">Powered by <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <a href="https://theme-next.js.org/">NexT.Gemini</a>
+  <div class="powered-by">由 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <a href="https://theme-next.js.org/">NexT.Gemini</a> 强力驱动
   </div><div class="footer-custom">
-Website source code <span class="exturl theme-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG8tbmV4dC9oZXhvLW5leHQuZ2l0aHViLmlv">here</span>
+  <div class="powered-by">由 <a href="https://github.com/next-theme/theme-next-docs" class="theme-link" rel="noopener" target="_blank">Hexo</a> v8.0.0 驱动</div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://github.com/next-theme/hexo-theme-next" class="theme-link" rel="noopener" target="_blank">Hexo.NexT</a> v8.0.0</div>
 </div>
-
 
     </div>
   </footer>

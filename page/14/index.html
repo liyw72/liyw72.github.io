@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
@@ -20,13 +20,13 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"theme-next.js.org","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.10.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.json","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.10.0/source/js/config.min.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"theme-next.js.org","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.10.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.json","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.10.0/source/js/config.min.js"></script>
 
   <meta property="og:type" content="website">
 <meta property="og:title" content="NexT">
 <meta property="og:url" content="https://theme-next.js.org/page/14/index.html">
 <meta property="og:site_name" content="NexT">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="Hexo, NexT">
 <meta name="twitter:card" content="summary">
@@ -36,10 +36,10 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"en","comments":"","permalink":"","path":"page/14/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"page/14/index.html","title":""}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>NexT - Theme for Hexo</title>
+<title>NexT</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108155018-3"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"UA-108155018-3","only_pageview":false}</script>
@@ -53,7 +53,7 @@
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
 <link rel="alternate" href="/atom.xml" title="NexT" type="application/atom+xml">
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
@@ -62,7 +62,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+    <div class="toggle" aria-label="切换导航栏" role="button">
         <span class="toggle-line"></span>
         <span class="toggle-line"></span>
         <span class="toggle-line"></span>
@@ -76,7 +76,6 @@
       <h1 class="site-title">NexT</h1>
       <i class="logo-line"></i>
     </a>
-      <p class="site-subtitle" itemprop="description">Theme for Hexo</p>
   </div>
 
   <div class="site-nav-right">
@@ -90,7 +89,7 @@
 
 <nav class="site-nav">
   <ul class="main-menu menu">
-        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-bell fa-fw"></i>Home</a></li>
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-bell fa-fw"></i>首页</a></li>
         
             
   <li class="menu-item menu-item-docs"><a href="/docs/" rel="section"><i class="fa fa-book fa-fw"></i>Docs</a></li>
@@ -98,9 +97,10 @@
 
       
         <li class="menu-item menu-item-plugins"><a href="/plugins/" rel="section"><i class="fa fa-flask fa-fw"></i>Plugins</a></li>
-        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">58</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>博客<span class="badge">58</span></a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-fw fa-th fa-fw"></i>分类<span class="badge">0</span></a></li>
       <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
       </li>
   </ul>
@@ -115,7 +115,7 @@
   </span>
   <div class="search-input-container">
     <input autocomplete="off" autocapitalize="off" maxlength="80"
-           placeholder="Searching..." spellcheck="false"
+           placeholder="搜索..." spellcheck="false"
            type="search" class="search-input">
   </div>
   <span class="popup-btn-close" role="button">
@@ -145,10 +145,10 @@
     <div class="sidebar-inner sidebar-overview-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          站点概览
         </li>
       </ul>
 
@@ -160,17 +160,17 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Theme NexT"
+    <img class="site-author-image" itemprop="image" alt="John Doe"
       src="/images/logo.svg">
-  <p class="site-author-name" itemprop="name">Theme NexT</p>
-  <div class="site-description" itemprop="description">Stay Simple. Stay NexT.</div>
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
           <span class="site-state-item-count">58</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
   </nav>
@@ -202,7 +202,7 @@
     </header>
 
     
-  <div class="back-to-top" role="button" aria-label="Back to top">
+  <div class="back-to-top" role="button" aria-label="返回顶部">
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
@@ -228,8 +228,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -246,9 +246,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2018-02-21 11:40:27" itemprop="dateCreated datePublished" datetime="2018-02-21T11:40:27Z">2018-02-21</time>
+      <time title="创建时间：2018-02-21 11:40:27" itemprop="dateCreated datePublished" datetime="2018-02-21T11:40:27Z">2018-02-21</time>
     </span>
 
   
@@ -258,7 +258,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-6-0-5-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-6-0-5-released/" itemprop="commentCount"></span>
@@ -277,7 +277,9 @@
     <div class="post-body" itemprop="articleBody">
           <h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul>
 <li>Added BreadCrumbs feature. (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTM2">#136<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Added <code>include_raw</code> tag. (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTQw">#140<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% include_raw &#x27;_data/templates/custom.html&#x27; %&#125;</span><br></pre></td></tr></table></figure></li>
+<li>Added <code>include_raw</code> tag. (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTQw">#140<i class="fa fa-external-link-alt"></i></span>)<pre class=" language-swig"><code class="language-swig">&#123;% include_raw '_data/templates/custom.html' %&#125;
+</code></pre>
+</li>
 </ul>
 <h2 id="Optimizations"><a href="#Optimizations" class="headerlink" title="Optimizations"></a>Optimizations</h2><ul>
 <li>Update translations for core languages.</li>
@@ -319,8 +321,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -337,9 +339,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2018-02-10 15:03:13" itemprop="dateCreated datePublished" datetime="2018-02-10T15:03:13Z">2018-02-10</time>
+      <time title="创建时间：2018-02-10 15:03:13" itemprop="dateCreated datePublished" datetime="2018-02-10T15:03:13Z">2018-02-10</time>
     </span>
 
   
@@ -349,7 +351,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-6-0-4-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-6-0-4-released/" itemprop="commentCount"></span>
@@ -366,17 +368,74 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="Breaking-Changes"><a href="#Breaking-Changes" class="headerlink" title="Breaking Changes"></a>Breaking Changes</h2><h3 id="Busuanzi-Count-129"><a href="#Busuanzi-Count-129" class="headerlink" title="Busuanzi Count (#129)"></a>Busuanzi Count (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTI5">#129<i class="fa fa-external-link-alt"></i></span>)</h3><h4 id="Old-configuration"><a href="#Old-configuration" class="headerlink" title="Old configuration:"></a>Old configuration:</h4><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-# Show PV/UV of the website/page with busuanzi.</span></span><br><span class="line"> # Get more information on http://ibruce.info/2015/04/04/busuanzi/	</span><br><span class="line"> busuanzi_count:	</span><br><span class="line"><span class="deletion">-  # count values only if the other configs are false	</span></span><br><span class="line">   enable: false	</span><br><span class="line"><span class="deletion">-  # custom uv span for the whole site</span></span><br><span class="line"><span class="deletion">-  site_uv: true	</span></span><br><span class="line"><span class="deletion">-  site_uv_header: &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;</span></span><br><span class="line"><span class="deletion">-  site_uv_footer:</span></span><br><span class="line"><span class="deletion">-  # custom pv span for the whole site	</span></span><br><span class="line"><span class="deletion">-  site_pv: true</span></span><br><span class="line"><span class="deletion">-  site_pv_header: &lt;i class=&quot;fa fa-eye&quot;&gt;&lt;/i&gt;	</span></span><br><span class="line"><span class="deletion">-  site_pv_footer:	</span></span><br><span class="line"><span class="deletion">-  # custom pv span for one page only	</span></span><br><span class="line"><span class="deletion">-  page_pv: true	</span></span><br><span class="line"><span class="deletion">-  page_pv_header: &lt;i class=&quot;fa fa-file-o&quot;&gt;&lt;/i&gt;	</span></span><br><span class="line"><span class="deletion">-  page_pv_footer:</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="New-configuration"><a href="#New-configuration" class="headerlink" title="New configuration:"></a>New configuration:</h4><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+# Show Views/Visitors of the website/page with busuanzi.</span></span><br><span class="line"> # Get more information on http://ibruce.info/2015/04/04/busuanzi/</span><br><span class="line"> busuanzi_count:</span><br><span class="line">   enable: false</span><br><span class="line"><span class="addition">+  total_visitors: true</span></span><br><span class="line"><span class="addition">+  total_visitors_icon: user</span></span><br><span class="line"><span class="addition">+  total_views: true</span></span><br><span class="line"><span class="addition">+  total_views_icon: eye</span></span><br><span class="line"><span class="addition">+  post_views: true</span></span><br><span class="line"><span class="addition">+  post_views_icon: eye</span></span><br></pre></td></tr></table></figure>
-
+          <h2 id="Breaking-Changes"><a href="#Breaking-Changes" class="headerlink" title="Breaking Changes"></a>Breaking Changes</h2><h3 id="Busuanzi-Count-129"><a href="#Busuanzi-Count-129" class="headerlink" title="Busuanzi Count (#129)"></a>Busuanzi Count (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTI5">#129<i class="fa fa-external-link-alt"></i></span>)</h3><h4 id="Old-configuration"><a href="#Old-configuration" class="headerlink" title="Old configuration:"></a>Old configuration:</h4><pre class=" language-diff"><code class="language-diff"><span class="token deleted">-# Show PV/UV of the website/page with busuanzi.</span>
+ # Get more information on http://ibruce.info/2015/04/04/busuanzi/    
+ busuanzi_count:    
+<span class="token deleted">-  # count values only if the other configs are false    </span>
+   enable: false    
+<span class="token deleted">-  # custom uv span for the whole site</span>
+<span class="token deleted">-  site_uv: true    </span>
+<span class="token deleted">-  site_uv_header: &lt;i class="fa fa-user">&lt;/i></span>
+<span class="token deleted">-  site_uv_footer:</span>
+<span class="token deleted">-  # custom pv span for the whole site    </span>
+<span class="token deleted">-  site_pv: true</span>
+<span class="token deleted">-  site_pv_header: &lt;i class="fa fa-eye">&lt;/i>    </span>
+<span class="token deleted">-  site_pv_footer:    </span>
+<span class="token deleted">-  # custom pv span for one page only    </span>
+<span class="token deleted">-  page_pv: true    </span>
+<span class="token deleted">-  page_pv_header: &lt;i class="fa fa-file-o">&lt;/i>    </span>
+<span class="token deleted">-  page_pv_footer:</span>
+</code></pre>
+<h4 id="New-configuration"><a href="#New-configuration" class="headerlink" title="New configuration:"></a>New configuration:</h4><pre class=" language-diff"><code class="language-diff"><span class="token inserted">+# Show Views/Visitors of the website/page with busuanzi.</span>
+ # Get more information on http://ibruce.info/2015/04/04/busuanzi/
+ busuanzi_count:
+   enable: false
+<span class="token inserted">+  total_visitors: true</span>
+<span class="token inserted">+  total_visitors_icon: user</span>
+<span class="token inserted">+  total_views: true</span>
+<span class="token inserted">+  total_views_icon: eye</span>
+<span class="token inserted">+  post_views: true</span>
+<span class="token inserted">+  post_views_icon: eye</span>
+</code></pre>
 <h3 id="Remove-signature-option-and-stay-only-description-for-exclude-users-confused-when-seo-true-125"><a href="#Remove-signature-option-and-stay-only-description-for-exclude-users-confused-when-seo-true-125" class="headerlink" title="Remove signature option and stay only description for exclude users confused when seo: true (#125)"></a>Remove <code>signature</code> option and stay only <code>description</code> for exclude users confused when <code>seo: true</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTI1">#125<i class="fa fa-external-link-alt"></i></span>)</h3><h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul>
-<li>Added extlinks on sidebar author links. (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTk=">#99<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">social_icons:</span></span><br><span class="line">  <span class="string">...</span></span><br><span class="line">  <span class="attr">exturl:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure></li>
+<li>Added extlinks on sidebar author links. (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTk=">#99<i class="fa fa-external-link-alt"></i></span>)<pre class=" language-yml"><code class="language-yml">social_icons:
+  ...
+  exturl: false
+</code></pre>
+</li>
 <li>Added Turkish translation by <span class="exturl" data-url="aHR0cHM6Ly9jcm93ZGluLmNvbS9wcm9maWxlL2ludGVsbGlnZW5jZXI=">https://crowdin.com/profile/intelligencer<i class="fa fa-external-link-alt"></i></span> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTU=">#95<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Added vendor config for bookmark (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTA2">#106<i class="fa fa-external-link-alt"></i></span>) and reading_progress (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTA3">#107<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">vendors:</span></span><br><span class="line">  <span class="string">...</span></span><br><span class="line">  <span class="attr">bookmark:</span> </span><br><span class="line">  <span class="attr">reading_progress:</span></span><br></pre></td></tr></table></figure></li>
-<li>Added <code>max_content_width</code> config for Gemini Scheme (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTAz">#103<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Manual define the max content width</span></span><br><span class="line"><span class="comment"># !Only available for Gemini Scheme currently</span></span><br><span class="line"><span class="comment"># Leave it empty for the default 75% (suggest not less than 1000px)</span></span><br><span class="line"><span class="attr">max_content_width:</span> <span class="string">1000px</span> <span class="comment"># or 90% for more wide, etc.</span></span><br></pre></td></tr></table></figure></li>
-<li>Added <code>sidebar_width</code> config for Gemini Scheme (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTEx">#111<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Manual define the sidebar width</span></span><br><span class="line"><span class="comment"># !!Only available for Gemini Scheme currently</span></span><br><span class="line"><span class="comment"># Leave it empty for the default 240</span></span><br><span class="line"><span class="attr">sidebar_width:</span></span><br></pre></td></tr></table></figure></li>
-<li>Added Related Posts (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTA5">#109<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Related popular posts</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/tea3/hexo-related-popular-posts</span></span><br><span class="line"><span class="attr">related_posts:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">title:</span> <span class="comment"># custom header, leave empty to use the default one</span></span><br><span class="line">  <span class="attr">display_in_home:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">params:</span></span><br><span class="line">    <span class="attr">maxCount:</span> <span class="number">5</span></span><br><span class="line">    <span class="comment">#PPMixingRate: 0.0</span></span><br><span class="line">    <span class="comment">#isDate: false</span></span><br><span class="line">    <span class="comment">#isImage: false</span></span><br><span class="line">    <span class="comment">#isExcerpt: false</span></span><br></pre></td></tr></table></figure></li>
+<li>Added vendor config for bookmark (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTA2">#106<i class="fa fa-external-link-alt"></i></span>) and reading_progress (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTA3">#107<i class="fa fa-external-link-alt"></i></span>)<pre class=" language-yml"><code class="language-yml">vendors:
+  ...
+  bookmark: 
+  reading_progress:
+</code></pre>
+</li>
+<li>Added <code>max_content_width</code> config for Gemini Scheme (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTAz">#103<i class="fa fa-external-link-alt"></i></span>)<pre class=" language-yml"><code class="language-yml"># Manual define the max content width
+# !Only available for Gemini Scheme currently
+# Leave it empty for the default 75% (suggest not less than 1000px)
+max_content_width: 1000px # or 90% for more wide, etc.
+</code></pre>
+</li>
+<li>Added <code>sidebar_width</code> config for Gemini Scheme (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTEx">#111<i class="fa fa-external-link-alt"></i></span>)<pre class=" language-yml"><code class="language-yml"># Manual define the sidebar width
+# !!Only available for Gemini Scheme currently
+# Leave it empty for the default 240
+sidebar_width:
+</code></pre>
+</li>
+<li>Added Related Posts (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMTA5">#109<i class="fa fa-external-link-alt"></i></span>)<pre class=" language-yml"><code class="language-yml"># Related popular posts
+# Dependencies: https://github.com/tea3/hexo-related-popular-posts
+related_posts:
+  enable: false
+  title: # custom header, leave empty to use the default one
+  display_in_home: false
+  params:
+    maxCount: 5
+    #PPMixingRate: 0.0
+    #isDate: false
+    #isImage: false
+    #isExcerpt: false
+</code></pre>
+</li>
 </ul>
 <h2 id="Optimizations"><a href="#Optimizations" class="headerlink" title="Optimizations"></a>Optimizations</h2><ul>
 <li>Update translations for core languages.</li>
@@ -432,8 +491,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -450,9 +509,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2018-01-30 04:55:20" itemprop="dateCreated datePublished" datetime="2018-01-30T04:55:20Z">2018-01-30</time>
+      <time title="创建时间：2018-01-30 04:55:20" itemprop="dateCreated datePublished" datetime="2018-01-30T04:55:20Z">2018-01-30</time>
     </span>
 
   
@@ -462,7 +521,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-6-0-3-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-6-0-3-released/" itemprop="commentCount"></span>
@@ -480,16 +539,32 @@
     
     <div class="post-body" itemprop="articleBody">
           <h2 id="Breaking-Changes"><a href="#Breaking-Changes" class="headerlink" title="Breaking Changes"></a>Breaking Changes</h2><h3 id="Rename-some-language-code"><a href="#Rename-some-language-code" class="headerlink" title="Rename some language code"></a>Rename some language code</h3><p>Please change your <code>hexo/_config.yml</code>:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">language:</span> <span class="string">&lt;new</span> <span class="string">language-code&gt;</span></span><br></pre></td></tr></table></figure>
-
+<pre class=" language-yml"><code class="language-yml">language: <new language-code>
+</code></pre>
 <ul>
 <li><code>zh-Hans</code> to <code>zh-CN</code> for better compatability. (<span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0L2UxZTZjZjhmZTBlMGI2ZjIyZmVkMjJlNzY2MDE5YmU3NGY4M2RlNWQ=">e1e6cf8<i class="fa fa-external-link-alt"></i></span>)</li>
 <li><code>fr-FR</code> and <code>nl-NL</code> to <code>fr</code> and <code>nl</code>. (<span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0L2VlOTE1NzMxZGM0NWUyNmI0ZmE4YTYyM2E4NjRmOGJmYjMxYmYzZmU=">ee91573<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0L2VjNWU5ZGI3ODU5MDQ4NDIyN2M1YmQ5YWYwMjZjMjNhNjVjNmM3MzY=">ec5e9db<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
 <h3 id="Refactored-license-content-amp-Fixed-excess-spaces-4003a0e"><a href="#Refactored-license-content-amp-Fixed-excess-spaces-4003a0e" class="headerlink" title="Refactored license_content &amp; Fixed excess spaces. (4003a0e)"></a>Refactored <code>license_content</code> &amp; Fixed excess spaces. (<span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0LzQwMDNhMGVhMGUzNjRhMDkwODc1YmIyYmMwMjRiYTNlYjUxZWY0Y2E=">4003a0e<i class="fa fa-external-link-alt"></i></span>)</h3><h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul>
-<li>Added: Bookmark feature (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjM=">#63<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">bookmark:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">save:</span> <span class="string">auto</span> <span class="comment"># or manual</span></span><br></pre></td></tr></table></figure></li>
-<li>Added a switch to choice whether it will unescape the HTML strings for local searching (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTA=">#90<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="string">...</span></span><br><span class="line">  <span class="comment"># unescape html strings to the readable one</span></span><br><span class="line">  <span class="attr">unescape:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></li>
-<li>Added: Support to set whether the sidebar will be shown in each single post. (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTM=">#93<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line">date: 2018-01-28 21:16:00</span><br><span class="line"><span class="section">sidebar: false</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br><span class="line">...</span><br></pre></td></tr></table></figure></li>
+<li>Added: Bookmark feature (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNjM=">#63<i class="fa fa-external-link-alt"></i></span>)<pre class=" language-yml"><code class="language-yml">bookmark:
+  enable: true
+  save: auto # or manual
+</code></pre>
+</li>
+<li>Added a switch to choice whether it will unescape the HTML strings for local searching (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTA=">#90<i class="fa fa-external-link-alt"></i></span>)<pre class=" language-yml"><code class="language-yml">local_search:
+  ...
+  # unescape html strings to the readable one
+  unescape: true
+</code></pre>
+</li>
+<li>Added: Support to set whether the sidebar will be shown in each single post. (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTM=">#93<i class="fa fa-external-link-alt"></i></span>)<pre class=" language-md"><code class="language-md">...
+date: 2018-01-28 21:16:00
+sidebar: false
+---
+
+...
+</code></pre>
+</li>
 <li>Added docs of Algolia search (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvOTE=">#91<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
 <h2 id="Optimizations"><a href="#Optimizations" class="headerlink" title="Optimizations"></a>Optimizations</h2><ul>
@@ -538,8 +613,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -556,9 +631,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2018-01-20 16:46:25" itemprop="dateCreated datePublished" datetime="2018-01-20T16:46:25Z">2018-01-20</time>
+      <time title="创建时间：2018-01-20 16:46:25" itemprop="dateCreated datePublished" datetime="2018-01-20T16:46:25Z">2018-01-20</time>
     </span>
 
   
@@ -568,7 +643,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-6-0-2-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-6-0-2-released/" itemprop="commentCount"></span>
@@ -585,17 +660,79 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="Breaking-changes"><a href="#Breaking-changes" class="headerlink" title="Breaking changes"></a>Breaking changes</h2><h3 id="MathJax-32-See-docs-for-details"><a href="#MathJax-32-See-docs-for-details" class="headerlink" title="MathJax (#32) [See docs for details]"></a>MathJax (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMzI=">#32<i class="fa fa-external-link-alt"></i></span>) [See <a href="/docs/third-party-services/math-equations.html">docs</a> for details]</h3><h4 id="Old-configuration"><a href="#Old-configuration" class="headerlink" title="Old configuration:"></a>Old configuration:</h4><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-# MathJax Support</span></span><br><span class="line"><span class="deletion">-mathjax:</span></span><br><span class="line"><span class="deletion">-  enable: false</span></span><br><span class="line"><span class="deletion">-  per_page: false</span></span><br><span class="line"><span class="deletion">- cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML</span></span><br></pre></td></tr></table></figure>
+          <h2 id="Breaking-changes"><a href="#Breaking-changes" class="headerlink" title="Breaking changes"></a>Breaking changes</h2><h3 id="MathJax-32-See-docs-for-details"><a href="#MathJax-32-See-docs-for-details" class="headerlink" title="MathJax (#32) [See docs for details]"></a>MathJax (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMzI=">#32<i class="fa fa-external-link-alt"></i></span>) [See <a href="/docs/third-party-services/math-equations.html">docs</a> for details]</h3><h4 id="Old-configuration"><a href="#Old-configuration" class="headerlink" title="Old configuration:"></a>Old configuration:</h4><pre class=" language-diff"><code class="language-diff"><span class="token deleted">-# MathJax Support</span>
+<span class="token deleted">-mathjax:</span>
+<span class="token deleted">-  enable: false</span>
+<span class="token deleted">-  per_page: false</span>
+<span class="token deleted">- cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML</span>
+</code></pre>
+<h4 id="New-configuration"><a href="#New-configuration" class="headerlink" title="New configuration:"></a>New configuration:</h4><pre class=" language-yml"><code class="language-yml"># Math Equations Render Support
+math:
+  enable: false
 
-<h4 id="New-configuration"><a href="#New-configuration" class="headerlink" title="New configuration:"></a>New configuration:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Math Equations Render Support</span></span><br><span class="line"><span class="attr">math:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Default(false) will load mathjax/katex script EVERY PAGE</span></span><br><span class="line">  <span class="comment"># If you set to true, you need to add &#x27;mathjax: true&#x27; in Front Matter of post</span></span><br><span class="line">  <span class="comment"># in order to render math equations in post</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">engine:</span> <span class="string">mathjax</span></span><br><span class="line">  <span class="comment">#engine: katex</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># hexo-rendering-pandoc (or hexo-renderer-kramed) needed to full MathJax support.</span></span><br><span class="line">  <span class="attr">mathjax:</span></span><br><span class="line">    <span class="comment"># For newMathJax CDN (cdnjs.cloudflare.com) with fallback to oldMathJax (cdn.mathjax.org).</span></span><br><span class="line">    <span class="attr">cdn:</span> <span class="string">//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML</span></span><br><span class="line">    <span class="comment"># For direct link to MathJax.js with CloudFlare CDN (cdnjs.cloudflare.com).</span></span><br><span class="line">    <span class="comment">#cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML</span></span><br><span class="line">    <span class="comment"># For automatic detect latest version link to MathJax.js and get from CloudFlare.</span></span><br><span class="line">    <span class="comment">#cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># hexo-renderer-markdown-it-plus (or hexo-renderer-markdown-it with markdown-it-katex plugin)</span></span><br><span class="line">  <span class="comment"># needed to full Katex support.</span></span><br><span class="line">  <span class="attr">katex:</span></span><br><span class="line">    <span class="comment"># Use Katex 0.7.1 as default</span></span><br><span class="line">    <span class="attr">cdn:</span> <span class="string">//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css</span></span><br><span class="line">    <span class="comment"># If you want to try the latest version of Katex, use one below instead</span></span><br><span class="line">    <span class="comment">#cdn: //cdn.jsdelivr.net/katex/latest/katex.min.css</span></span><br></pre></td></tr></table></figure>
+  # Default(false) will load mathjax/katex script EVERY PAGE
+  # If you set to true, you need to add 'mathjax: true' in Front Matter of post
+  # in order to render math equations in post
+  per_page: false
 
+  engine: mathjax
+  #engine: katex
+
+  # hexo-rendering-pandoc (or hexo-renderer-kramed) needed to full MathJax support.
+  mathjax:
+    # For newMathJax CDN (cdnjs.cloudflare.com) with fallback to oldMathJax (cdn.mathjax.org).
+    cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+    # For direct link to MathJax.js with CloudFlare CDN (cdnjs.cloudflare.com).
+    #cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML
+    # For automatic detect latest version link to MathJax.js and get from CloudFlare.
+    #cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+
+  # hexo-renderer-markdown-it-plus (or hexo-renderer-markdown-it with markdown-it-katex plugin)
+  # needed to full Katex support.
+  katex:
+    # Use Katex 0.7.1 as default
+    cdn: //cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css
+    # If you want to try the latest version of Katex, use one below instead
+    #cdn: //cdn.jsdelivr.net/katex/latest/katex.min.css
+</code></pre>
 <h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul>
 <li>Added <code>katex</code> support (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMzI=">#32<i class="fa fa-external-link-alt"></i></span>) (See breaking changes above)</li>
-<li>Added: Support to lazy load the disqus comments (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMzQ=">#34<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">disqus:</span></span><br><span class="line">  <span class="attr">lazyload:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></li>
-<li>Added <code>cheers_enabled</code> config option (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNDM=">#43<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Enable &quot;cheers&quot; for archive page.</span></span><br><span class="line"><span class="attr">cheers_enabled:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></li>
-<li>Added <code>pangu.js</code> instead of auto_spacing in hexo (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNTE=">#51<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNTY=">#56<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Pangu Support</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/theme-next-pangu</span></span><br><span class="line"><span class="comment"># For more information: https://github.com/vinta/pangu.js</span></span><br><span class="line"><span class="attr">pangu:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></li>
-<li>Added <code>updated_diff</code> option to <code>post_meta</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNTA=">#50<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post_meta:</span></span><br><span class="line">  <span class="attr">created_at:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">updated_at:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">updated_diff:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></li>
-<li>Added: Load custom files from outside the theme (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMzE=">#31<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0L2Y5NjhmZmMxZjRlNjhkYTUzZmYxOTliZTZmZWE0YjUxOThmZjQzNjc=">f968ffc<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0LzEyZmUxMzExNTkwODllMGRjMGUyNjI1MWIyN2YzZDJmNzVkNDY5NDA=">12fe131<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0LzFjYjRkMDg2YmQzMWMwNjE3NjRjZWFkZGRjODJhNzI5ZTRkYzNmZDU=">1cb4d08<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0Lzg3NDQyMzhjYzU3NGUyYjNlOWMzMzQzMzBhYTVmNGE3ZDg2M2FmOTY=">8744238<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Redefine custom file paths. Introduced in NexT v6.0.2.</span></span><br><span class="line"><span class="comment"># If commented, will be used default custom file paths.</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># For example, you want to put your custom styles file</span></span><br><span class="line"><span class="comment"># outside theme directory in root `source/_data`, set</span></span><br><span class="line"><span class="comment"># `styles: source/_data/styles.styl`</span></span><br><span class="line"><span class="attr">custom_file_path:</span></span><br><span class="line">  <span class="comment">#head: source/_data/head.swig</span></span><br><span class="line">  <span class="attr">header:</span> <span class="string">source/_data/header.swig</span></span><br><span class="line">  <span class="comment">#sidebar: source/_data/sidebar.swig</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">styles:</span> <span class="string">source/_data/styles.styl</span></span><br><span class="line">  <span class="comment">#mixins: source/_data/mixins.styl</span></span><br><span class="line">  <span class="attr">variables:</span> <span class="string">source/_data/variables.styl</span></span><br></pre></td></tr></table></figure></li>
+<li>Added: Support to lazy load the disqus comments (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMzQ=">#34<i class="fa fa-external-link-alt"></i></span>)<pre class=" language-yml"><code class="language-yml">disqus:
+  lazyload: true
+</code></pre>
+</li>
+<li>Added <code>cheers_enabled</code> config option (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNDM=">#43<i class="fa fa-external-link-alt"></i></span>)<pre class=" language-yml"><code class="language-yml"># Enable "cheers" for archive page.
+cheers_enabled: true
+</code></pre>
+</li>
+<li>Added <code>pangu.js</code> instead of auto_spacing in hexo (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNTE=">#51<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNTY=">#56<i class="fa fa-external-link-alt"></i></span>)<pre class=" language-yml"><code class="language-yml"># Pangu Support
+# Dependencies: https://github.com/theme-next/theme-next-pangu
+# For more information: https://github.com/vinta/pangu.js
+pangu: true
+</code></pre>
+</li>
+<li>Added <code>updated_diff</code> option to <code>post_meta</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNTA=">#50<i class="fa fa-external-link-alt"></i></span>)<pre class=" language-yml"><code class="language-yml">post_meta:
+  created_at: true
+  updated_at: true
+  updated_diff: true
+</code></pre>
+</li>
+<li>Added: Load custom files from outside the theme (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMzE=">#31<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0L2Y5NjhmZmMxZjRlNjhkYTUzZmYxOTliZTZmZWE0YjUxOThmZjQzNjc=">f968ffc<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0LzEyZmUxMzExNTkwODllMGRjMGUyNjI1MWIyN2YzZDJmNzVkNDY5NDA=">12fe131<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0LzFjYjRkMDg2YmQzMWMwNjE3NjRjZWFkZGRjODJhNzI5ZTRkYzNmZDU=">1cb4d08<i class="fa fa-external-link-alt"></i></span>, <span class="exturl" data-url="aHR0cDovL2dpdGh1Yi5jb20vdGhlbWUtbmV4dC9oZXhvLXRoZW1lLW5leHQvY29tbWl0Lzg3NDQyMzhjYzU3NGUyYjNlOWMzMzQzMzBhYTVmNGE3ZDg2M2FmOTY=">8744238<i class="fa fa-external-link-alt"></i></span>)<pre class=" language-yml"><code class="language-yml"># Redefine custom file paths. Introduced in NexT v6.0.2.
+# If commented, will be used default custom file paths.
+
+# For example, you want to put your custom styles file
+# outside theme directory in root `source/_data`, set
+# `styles: source/_data/styles.styl`
+custom_file_path:
+  #head: source/_data/head.swig
+  header: source/_data/header.swig
+  #sidebar: source/_data/sidebar.swig
+
+  styles: source/_data/styles.styl
+  #mixins: source/_data/mixins.styl
+  variables: source/_data/variables.styl
+</code></pre>
+</li>
 </ul>
 <h2 id="Optimizations"><a href="#Optimizations" class="headerlink" title="Optimizations"></a>Optimizations</h2><ul>
 <li>Updated google-analytics.swig (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNDU=">#45<i class="fa fa-external-link-alt"></i></span>)</li>
@@ -636,7 +773,7 @@
 
 
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/13/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/13/">13</a><span class="page-number current">14</span><a class="page-number" href="/page/15/">15</a><a class="extend next" rel="next" href="/page/15/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+    <a class="extend prev" rel="prev" href="/page/13/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/13/">13</a><span class="page-number current">14</span><a class="page-number" href="/page/15/">15</a><a class="extend next" rel="next" href="/page/15/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 </div>
@@ -654,11 +791,12 @@
   </span>
   <span class="author" itemprop="copyrightHolder">NexT</span>
 </div>
-  <div class="powered-by">Powered by <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <a href="https://theme-next.js.org/">NexT.Gemini</a>
+  <div class="powered-by">由 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <a href="https://theme-next.js.org/">NexT.Gemini</a> 强力驱动
   </div><div class="footer-custom">
-Website source code <span class="exturl theme-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG8tbmV4dC9oZXhvLW5leHQuZ2l0aHViLmlv">here</span>
+  <div class="powered-by">由 <a href="https://github.com/next-theme/theme-next-docs" class="theme-link" rel="noopener" target="_blank">Hexo</a> v8.0.0 驱动</div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://github.com/next-theme/hexo-theme-next" class="theme-link" rel="noopener" target="_blank">Hexo.NexT</a> v8.0.0</div>
 </div>
-
 
     </div>
   </footer>

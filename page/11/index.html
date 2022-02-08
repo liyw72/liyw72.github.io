@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
@@ -20,13 +20,13 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"theme-next.js.org","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.10.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.json","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.10.0/source/js/config.min.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"theme-next.js.org","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.10.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.json","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.10.0/source/js/config.min.js"></script>
 
   <meta property="og:type" content="website">
 <meta property="og:title" content="NexT">
 <meta property="og:url" content="https://theme-next.js.org/page/11/index.html">
 <meta property="og:site_name" content="NexT">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="Hexo, NexT">
 <meta name="twitter:card" content="summary">
@@ -36,10 +36,10 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"en","comments":"","permalink":"","path":"page/11/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"page/11/index.html","title":""}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>NexT - Theme for Hexo</title>
+<title>NexT</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108155018-3"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"UA-108155018-3","only_pageview":false}</script>
@@ -53,7 +53,7 @@
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
 <link rel="alternate" href="/atom.xml" title="NexT" type="application/atom+xml">
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
@@ -62,7 +62,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+    <div class="toggle" aria-label="切换导航栏" role="button">
         <span class="toggle-line"></span>
         <span class="toggle-line"></span>
         <span class="toggle-line"></span>
@@ -76,7 +76,6 @@
       <h1 class="site-title">NexT</h1>
       <i class="logo-line"></i>
     </a>
-      <p class="site-subtitle" itemprop="description">Theme for Hexo</p>
   </div>
 
   <div class="site-nav-right">
@@ -90,7 +89,7 @@
 
 <nav class="site-nav">
   <ul class="main-menu menu">
-        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-bell fa-fw"></i>Home</a></li>
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-bell fa-fw"></i>首页</a></li>
         
             
   <li class="menu-item menu-item-docs"><a href="/docs/" rel="section"><i class="fa fa-book fa-fw"></i>Docs</a></li>
@@ -98,9 +97,10 @@
 
       
         <li class="menu-item menu-item-plugins"><a href="/plugins/" rel="section"><i class="fa fa-flask fa-fw"></i>Plugins</a></li>
-        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">58</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>博客<span class="badge">58</span></a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-fw fa-th fa-fw"></i>分类<span class="badge">0</span></a></li>
       <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
       </li>
   </ul>
@@ -115,7 +115,7 @@
   </span>
   <div class="search-input-container">
     <input autocomplete="off" autocapitalize="off" maxlength="80"
-           placeholder="Searching..." spellcheck="false"
+           placeholder="搜索..." spellcheck="false"
            type="search" class="search-input">
   </div>
   <span class="popup-btn-close" role="button">
@@ -145,10 +145,10 @@
     <div class="sidebar-inner sidebar-overview-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          站点概览
         </li>
       </ul>
 
@@ -160,17 +160,17 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Theme NexT"
+    <img class="site-author-image" itemprop="image" alt="John Doe"
       src="/images/logo.svg">
-  <p class="site-author-name" itemprop="name">Theme NexT</p>
-  <div class="site-description" itemprop="description">Stay Simple. Stay NexT.</div>
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
           <span class="site-state-item-count">58</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
   </nav>
@@ -202,7 +202,7 @@
     </header>
 
     
-  <div class="back-to-top" role="button" aria-label="Back to top">
+  <div class="back-to-top" role="button" aria-label="返回顶部">
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
@@ -228,8 +228,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -246,9 +246,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2019-02-01 14:25:34" itemprop="dateCreated datePublished" datetime="2019-02-01T14:25:34Z">2019-02-01</time>
+      <time title="创建时间：2019-02-01 14:25:34" itemprop="dateCreated datePublished" datetime="2019-02-01T14:25:34Z">2019-02-01</time>
     </span>
 
   
@@ -258,7 +258,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-7-0-0-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-7-0-0-released/" itemprop="commentCount"></span>
@@ -326,8 +326,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -344,9 +344,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2019-01-05 09:57:00" itemprop="dateCreated datePublished" datetime="2019-01-05T09:57:00Z">2019-01-05</time>
+      <time title="创建时间：2019-01-05 09:57:00" itemprop="dateCreated datePublished" datetime="2019-01-05T09:57:00Z">2019-01-05</time>
     </span>
 
   
@@ -356,7 +356,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-v7-introduced/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-v7-introduced/" itemprop="commentCount"></span>
@@ -383,8 +383,8 @@
 <h2 id="Objectives-of-Version-7"><a href="#Objectives-of-Version-7" class="headerlink" title="Objectives of Version 7"></a>Objectives of Version 7</h2><p>There are several globally targets for NexT v7 changes planned:</p>
 <ul>
 <li>Replace all Nested Strings by Template Literals. This bring to code more readable (example: #557)</li>
-<li>Cut out all possible <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3RyZWUvbWFzdGVyL3NvdXJjZS9saWI=">3rd-party libraries<i class="fa fa-external-link-alt"></i></span> for provide minimum weight and maximum generation speed</li>
-<li>Targets, described in <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L2lzc3Vlcy82Nw==">NexT v7.x Roadmap<i class="fa fa-external-link-alt"></i></span>.</li>
+<li>Cut out all possible <a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-theme-next/tree/master/source/lib">3rd-party libraries</a> for provide minimum weight and maximum generation speed</li>
+<li>Targets, described in <a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-theme-next/issues/67">NexT v7.x Roadmap</a>.</li>
 </ul>
 <h2 id="Branching-Models"><a href="#Branching-Models" class="headerlink" title="Branching Models"></a>Branching Models</h2><p>All last year there are no problem with branching model management. All was simple:</p>
 <ol>
@@ -395,10 +395,10 @@
 <p>It was when NexT development came with single version. For now, we must support multiple versions: v6.x and v7.x, what bring some complicated as for maintainers and for users too.</p>
 <p>Last several days I thinking a lot about this and it seems the right way was successfully founded. And before understand my decision, let&#39;s see on all articles I finded.</p>
 <ol>
-<li><strong>A successful Git branching model</strong> → <span class="exturl" data-url="aHR0cHM6Ly9udmllLmNvbS9wb3N0cy9hLXN1Y2Nlc3NmdWwtZ2l0LWJyYW5jaGluZy1tb2RlbC8=">https://nvie.com/posts/a-successful-git-branching-model/<i class="fa fa-external-link-alt"></i></span><br><img src="https://user-images.githubusercontent.com/16944225/50646627-d8d66e80-0f76-11e9-9d6e-44a3c7a46bb4.png" alt="image" loading="lazy"></li>
-<li><strong>Cactus model</strong> → <span class="exturl" data-url="aHR0cHM6Ly9iYXJyby5naXRodWIuaW8vMjAxNi8wMi9hLXN1Y2Nlc2Z1bC1naXQtYnJhbmNoaW5nLW1vZGVsLWNvbnNpZGVyZWQtaGFybWZ1bC8=">https://barro.github.io/2016/02/a-succesful-git-branching-model-considered-harmful/<i class="fa fa-external-link-alt"></i></span><br><img src="https://user-images.githubusercontent.com/16944225/50647494-00c6d180-0f79-11e9-9e7b-e39c1af9e84b.png" alt="image" loading="lazy"></li>
-<li><strong>OneFlow model</strong> → <span class="exturl" data-url="aHR0cHM6Ly93d3cuZW5kb2ZsaW5lYmxvZy5jb20vb25lZmxvdy1hLWdpdC1icmFuY2hpbmctbW9kZWwtYW5kLXdvcmtmbG93">https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow<i class="fa fa-external-link-alt"></i></span><br><img src="https://user-images.githubusercontent.com/16944225/50647637-60bd7800-0f79-11e9-9216-41754c5d590f.png" alt="image" loading="lazy"></li>
-<li><strong>A stable mainline branching model</strong> → <span class="exturl" data-url="aHR0cDovL3d3dy5iaXRzbmJpdGVzLmV1L2Etc3RhYmxlLW1haW5saW5lLWJyYW5jaGluZy1tb2RlbC1mb3ItZ2l0Lw==">http://www.bitsnbites.eu/a-stable-mainline-branching-model-for-git/<i class="fa fa-external-link-alt"></i></span><br><img src="https://user-images.githubusercontent.com/16944225/50647741-a5491380-0f79-11e9-8166-d7379ce86444.png" alt="image" loading="lazy"><br><img src="https://user-images.githubusercontent.com/16944225/50647766-b8f47a00-0f79-11e9-9f5a-076ceaddd962.png" alt="image" loading="lazy"></li>
+<li><strong>A successful Git branching model</strong> → <a target="_blank" rel="noopener" href="https://nvie.com/posts/a-successful-git-branching-model/">https://nvie.com/posts/a-successful-git-branching-model/</a><br><img src="https://user-images.githubusercontent.com/16944225/50646627-d8d66e80-0f76-11e9-9d6e-44a3c7a46bb4.png" alt="image" loading="lazy"></li>
+<li><strong>Cactus model</strong> → <a target="_blank" rel="noopener" href="https://barro.github.io/2016/02/a-succesful-git-branching-model-considered-harmful/">https://barro.github.io/2016/02/a-succesful-git-branching-model-considered-harmful/</a><br><img src="https://user-images.githubusercontent.com/16944225/50647494-00c6d180-0f79-11e9-9e7b-e39c1af9e84b.png" alt="image" loading="lazy"></li>
+<li><strong>OneFlow model</strong> → <a target="_blank" rel="noopener" href="https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow">https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow</a><br><img src="https://user-images.githubusercontent.com/16944225/50647637-60bd7800-0f79-11e9-9216-41754c5d590f.png" alt="image" loading="lazy"></li>
+<li><strong>A stable mainline branching model</strong> → <a target="_blank" rel="noopener" href="http://www.bitsnbites.eu/a-stable-mainline-branching-model-for-git/">http://www.bitsnbites.eu/a-stable-mainline-branching-model-for-git/</a><br><img src="https://user-images.githubusercontent.com/16944225/50647741-a5491380-0f79-11e9-8166-d7379ce86444.png" alt="image" loading="lazy"><br><img src="https://user-images.githubusercontent.com/16944225/50647766-b8f47a00-0f79-11e9-9f5a-076ceaddd962.png" alt="image" loading="lazy"></li>
 </ol>
 <p>So, lets comment this models:</p>
 <ol>
@@ -410,7 +410,7 @@
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/next-v7-introduced/#more" rel="contents">
-                Read more &raquo;
+                阅读全文 &raquo;
               </a>
             </div>
           <!--/noindex-->
@@ -444,8 +444,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -462,9 +462,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2019-01-01 07:59:33" itemprop="dateCreated datePublished" datetime="2019-01-01T07:59:33Z">2019-01-01</time>
+      <time title="创建时间：2019-01-01 07:59:33" itemprop="dateCreated datePublished" datetime="2019-01-01T07:59:33Z">2019-01-01</time>
     </span>
 
   
@@ -474,7 +474,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-6-7-0-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-6-7-0-released/" itemprop="commentCount"></span>
@@ -494,10 +494,21 @@
           <blockquote>
 <p>\(^_^)&#x2F; Happy New Year!</p>
 </blockquote>
-<h2 id="Breaking-Changes"><a href="#Breaking-Changes" class="headerlink" title="Breaking Changes"></a>Breaking Changes</h2><h3 id="Rename-theme-vendors-Han-to-theme-vendors-han-512"><a href="#Rename-theme-vendors-Han-to-theme-vendors-han-512" class="headerlink" title="Rename theme.vendors.Han to theme.vendors.han (#512)"></a>Rename <code>theme.vendors.Han</code> to <code>theme.vendors.han</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNTEy">#512<i class="fa fa-external-link-alt"></i></span>)</h3><h4 id="Old-configuration"><a href="#Old-configuration" class="headerlink" title="Old configuration:"></a>Old configuration:</h4><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">vendors:</span><br><span class="line">...</span><br><span class="line">  # Internal version: 3.3.0</span><br><span class="line">  # See: https://github.com/ethantw/Han</span><br><span class="line"><span class="deletion">- Han:</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="New-configuration"><a href="#New-configuration" class="headerlink" title="New configuration:"></a>New configuration:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">vendors:</span></span><br><span class="line"><span class="string">...</span></span><br><span class="line">  <span class="comment"># Internal version: 3.3.0</span></span><br><span class="line">  <span class="comment"># See: https://github.com/ethantw/Han</span></span><br><span class="line">  <span class="comment"># Example:</span></span><br><span class="line">  <span class="comment"># han: //cdn.jsdelivr.net/npm/han-css@3/dist/han.min.css</span></span><br><span class="line">  <span class="comment"># han: //cdnjs.cloudflare.com/ajax/libs/Han/3.3.0/han.min.css</span></span><br><span class="line">  <span class="attr">han:</span></span><br></pre></td></tr></table></figure>
-
+<h2 id="Breaking-Changes"><a href="#Breaking-Changes" class="headerlink" title="Breaking Changes"></a>Breaking Changes</h2><h3 id="Rename-theme-vendors-Han-to-theme-vendors-han-512"><a href="#Rename-theme-vendors-Han-to-theme-vendors-han-512" class="headerlink" title="Rename theme.vendors.Han to theme.vendors.han (#512)"></a>Rename <code>theme.vendors.Han</code> to <code>theme.vendors.han</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNTEy">#512<i class="fa fa-external-link-alt"></i></span>)</h3><h4 id="Old-configuration"><a href="#Old-configuration" class="headerlink" title="Old configuration:"></a>Old configuration:</h4><pre class=" language-diff"><code class="language-diff">vendors:
+...
+  # Internal version: 3.3.0
+  # See: https://github.com/ethantw/Han
+<span class="token deleted">- Han:</span>
+</code></pre>
+<h4 id="New-configuration"><a href="#New-configuration" class="headerlink" title="New configuration:"></a>New configuration:</h4><pre class=" language-yml"><code class="language-yml">vendors:
+...
+  # Internal version: 3.3.0
+  # See: https://github.com/ethantw/Han
+  # Example:
+  # han: //cdn.jsdelivr.net/npm/han-css@3/dist/han.min.css
+  # han: //cdnjs.cloudflare.com/ajax/libs/Han/3.3.0/han.min.css
+  han:
+</code></pre>
 <h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul>
 <li>Fix <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNTUz">#553<i class="fa fa-external-link-alt"></i></span> New Feature: mhchem support (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNTU0">#554<i class="fa fa-external-link-alt"></i></span>)</li>
 <li>Format code &amp; update CDN URLs &amp; fix <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMjY5">#269<i class="fa fa-external-link-alt"></i></span> (copy_tex for KaTeX) (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNTQz">#543<i class="fa fa-external-link-alt"></i></span>)</li>
@@ -568,8 +579,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -586,9 +597,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2018-12-01 10:01:55" itemprop="dateCreated datePublished" datetime="2018-12-01T10:01:55Z">2018-12-01</time>
+      <time title="创建时间：2018-12-01 10:01:55" itemprop="dateCreated datePublished" datetime="2018-12-01T10:01:55Z">2018-12-01</time>
     </span>
 
   
@@ -598,7 +609,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-6-6-0-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-6-6-0-released/" itemprop="commentCount"></span>
@@ -616,21 +627,60 @@
     
     <div class="post-body" itemprop="articleBody">
           <h2 id="Breaking-Changes"><a href="#Breaking-Changes" class="headerlink" title="Breaking Changes"></a>Breaking Changes</h2><h3 id="Refactored-Creative-Commons-copyright-463"><a href="#Refactored-Creative-Commons-copyright-463" class="headerlink" title="Refactored Creative Commons copyright (#463)"></a>Refactored Creative Commons copyright (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNDYz">#463<i class="fa fa-external-link-alt"></i></span>)</h3><p>Joined <code>post_copyright</code> and <code>creative_commons</code> options into one.</p>
-<h4 id="Old-configuration"><a href="#Old-configuration" class="headerlink" title="Old configuration:"></a>Old configuration:</h4><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-# Creative Commons 4.0 International License.</span></span><br><span class="line"><span class="deletion">-# http://creativecommons.org/</span></span><br><span class="line"><span class="deletion">-# Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero</span></span><br><span class="line"><span class="deletion">-#creative_commons: by-nc-sa</span></span><br><span class="line"><span class="deletion">-#creative_commons:</span></span><br><span class="line"></span><br><span class="line"><span class="deletion">-# Declare license on posts</span></span><br><span class="line"><span class="deletion">-post_copyright:</span></span><br><span class="line"><span class="deletion">-  enable: false</span></span><br><span class="line"><span class="deletion">-  license: &lt;a href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;CC BY-NC-SA 4.0&lt;/a&gt;</span></span><br></pre></td></tr></table></figure>
+<h4 id="Old-configuration"><a href="#Old-configuration" class="headerlink" title="Old configuration:"></a>Old configuration:</h4><pre class=" language-diff"><code class="language-diff"><span class="token deleted">-# Creative Commons 4.0 International License.</span>
+<span class="token deleted">-# http://creativecommons.org/</span>
+<span class="token deleted">-# Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero</span>
+<span class="token deleted">-#creative_commons: by-nc-sa</span>
+<span class="token deleted">-#creative_commons:</span>
 
-<h4 id="New-configuration"><a href="#New-configuration" class="headerlink" title="New configuration:"></a>New configuration:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Creative Commons 4.0 International License.</span></span><br><span class="line"><span class="comment"># https://creativecommons.org/share-your-work/licensing-types-examples/</span></span><br><span class="line"><span class="comment"># Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero</span></span><br><span class="line"><span class="attr">creative_commons:</span></span><br><span class="line">  <span class="attr">license:</span> <span class="string">by-nc-sa</span></span><br><span class="line">  <span class="attr">sidebar:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">post:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-
+<span class="token deleted">-# Declare license on posts</span>
+<span class="token deleted">-post_copyright:</span>
+<span class="token deleted">-  enable: false</span>
+<span class="token deleted">-  license: &lt;a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0&lt;/a></span>
+</code></pre>
+<h4 id="New-configuration"><a href="#New-configuration" class="headerlink" title="New configuration:"></a>New configuration:</h4><pre class=" language-yml"><code class="language-yml"># Creative Commons 4.0 International License.
+# https://creativecommons.org/share-your-work/licensing-types-examples/
+# Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+creative_commons:
+  license: by-nc-sa
+  sidebar: false
+  post: false
+</code></pre>
 <h3 id="Global-improvement-for-ExtURL-463"><a href="#Global-improvement-for-ExtURL-463" class="headerlink" title="Global improvement for ExtURL (#463)"></a>Global improvement for ExtURL (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNDYz">#463<i class="fa fa-external-link-alt"></i></span>)</h3><p>From now no need to use <code>exturl</code> tag – all external links will be automatically replaced in posts (and in templates) with spanned links if <code>exturl</code> option will be enabled.</p>
-<h4 id="Old-configuration-1"><a href="#Old-configuration-1" class="headerlink" title="Old configuration:"></a>Old configuration:</h4><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"> social_icons:</span><br><span class="line">  enable: true</span><br><span class="line">  icons_only: false</span><br><span class="line">  transition: false</span><br><span class="line"><span class="deletion">- # Dependencies: exturl: true in Tags Settings section below.</span></span><br><span class="line"><span class="deletion">- # To encrypt links above use https://www.base64encode.org</span></span><br><span class="line"><span class="deletion">- # Example encoded link: `GitHub: aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQ= || github`</span></span><br><span class="line"><span class="deletion">- exturl: false</span></span><br><span class="line"></span><br><span class="line"><span class="deletion">-# External URL with BASE64 encrypt &amp; decrypt.</span></span><br><span class="line"><span class="deletion">-exturl: false</span></span><br></pre></td></tr></table></figure>
+<h4 id="Old-configuration-1"><a href="#Old-configuration-1" class="headerlink" title="Old configuration:"></a>Old configuration:</h4><pre class=" language-diff"><code class="language-diff"> social_icons:
+  enable: true
+  icons_only: false
+  transition: false
+<span class="token deleted">- # Dependencies: exturl: true in Tags Settings section below.</span>
+<span class="token deleted">- # To encrypt links above use https://www.base64encode.org</span>
+<span class="token deleted">- # Example encoded link: `GitHub: aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQ= || github`</span>
+<span class="token deleted">- exturl: false</span>
 
-<h4 id="New-configuration-1"><a href="#New-configuration-1" class="headerlink" title="New configuration:"></a>New configuration:</h4><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Automatically add external URL with BASE64 encrypt &amp; decrypt.</span></span><br><span class="line"><span class="attr">exturl:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-
+<span class="token deleted">-# External URL with BASE64 encrypt &amp; decrypt.</span>
+<span class="token deleted">-exturl: false</span>
+</code></pre>
+<h4 id="New-configuration-1"><a href="#New-configuration-1" class="headerlink" title="New configuration:"></a>New configuration:</h4><pre class=" language-yml"><code class="language-yml"># Automatically add external URL with BASE64 encrypt & decrypt.
+exturl: false
+</code></pre>
 <h3 id="Reward-be-more-intelligent-related-issue-280-465"><a href="#Reward-be-more-intelligent-related-issue-280-465" class="headerlink" title="Reward be more intelligent, related issue #280 (#465)"></a>Reward be more intelligent, related issue <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvMjgw">#280<i class="fa fa-external-link-alt"></i></span> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNDY1">#465<i class="fa fa-external-link-alt"></i></span>)</h3><h4 id="How-to-use"><a href="#How-to-use" class="headerlink" title="How to use?"></a>How to use?</h4><p>In NexT _config.yml:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Reward</span></span><br><span class="line"><span class="comment"># If true, reward would be displayed in every article by default.</span></span><br><span class="line"><span class="comment"># And you can show or hide one article specially through add page variable `reward: true/false`.</span></span><br><span class="line"><span class="attr">reward:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment">#comment: Donate comment here</span></span><br><span class="line">  <span class="comment">#wechatpay: /images/wechatpay.jpg</span></span><br><span class="line">  <span class="comment">#alipay: /images/alipay.jpg</span></span><br><span class="line">  <span class="comment">#bitcoin: /images/bitcoin.png</span></span><br></pre></td></tr></table></figure>
-
+<pre class=" language-yml"><code class="language-yml"># Reward
+# If true, reward would be displayed in every article by default.
+# And you can show or hide one article specially through add page variable `reward: true/false`.
+reward:
+  enable: false
+  #comment: Donate comment here
+  #wechatpay: /images/wechatpay.jpg
+  #alipay: /images/alipay.jpg
+  #bitcoin: /images/bitcoin.png
+</code></pre>
 <p>Or special config in .md:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">title-name</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2018-11-05</span></span><br><span class="line"><span class="string">...</span></span><br><span class="line"><span class="attr">reward:</span> <span class="literal">true</span><span class="string">/false</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
-
+<pre class=" language-yml"><code class="language-yml">---
+title: title-name
+date: 2018-11-05
+...
+reward: true/false
+---
+</code></pre>
 <h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ul>
 <li>Add gitalk comment system (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNDY0">#464<i class="fa fa-external-link-alt"></i></span>)</li>
 <li>Add PDFObject and PDF.js support (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3B1bGwvNDY2">#466<i class="fa fa-external-link-alt"></i></span>)</li>
@@ -667,7 +717,7 @@
 
 
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/10/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/10/">10</a><span class="page-number current">11</span><a class="page-number" href="/page/12/">12</a><span class="space">&hellip;</span><a class="page-number" href="/page/15/">15</a><a class="extend next" rel="next" href="/page/12/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+    <a class="extend prev" rel="prev" href="/page/10/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/10/">10</a><span class="page-number current">11</span><a class="page-number" href="/page/12/">12</a><span class="space">&hellip;</span><a class="page-number" href="/page/15/">15</a><a class="extend next" rel="next" href="/page/12/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 </div>
@@ -685,11 +735,12 @@
   </span>
   <span class="author" itemprop="copyrightHolder">NexT</span>
 </div>
-  <div class="powered-by">Powered by <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <a href="https://theme-next.js.org/">NexT.Gemini</a>
+  <div class="powered-by">由 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <a href="https://theme-next.js.org/">NexT.Gemini</a> 强力驱动
   </div><div class="footer-custom">
-Website source code <span class="exturl theme-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG8tbmV4dC9oZXhvLW5leHQuZ2l0aHViLmlv">here</span>
+  <div class="powered-by">由 <a href="https://github.com/next-theme/theme-next-docs" class="theme-link" rel="noopener" target="_blank">Hexo</a> v8.0.0 驱动</div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://github.com/next-theme/hexo-theme-next" class="theme-link" rel="noopener" target="_blank">Hexo.NexT</a> v8.0.0</div>
 </div>
-
 
     </div>
   </footer>

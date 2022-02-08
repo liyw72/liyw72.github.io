@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
@@ -20,13 +20,13 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"theme-next.js.org","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.10.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.json","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.10.0/source/js/config.min.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"theme-next.js.org","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.10.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.json","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-next@8.10.0/source/js/config.min.js"></script>
 
   <meta property="og:type" content="website">
 <meta property="og:title" content="NexT">
 <meta property="og:url" content="https://theme-next.js.org/page/6/index.html">
 <meta property="og:site_name" content="NexT">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="Hexo, NexT">
 <meta name="twitter:card" content="summary">
@@ -36,10 +36,10 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"en","comments":"","permalink":"","path":"page/6/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"page/6/index.html","title":""}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>NexT - Theme for Hexo</title>
+<title>NexT</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108155018-3"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"UA-108155018-3","only_pageview":false}</script>
@@ -53,7 +53,7 @@
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
 <link rel="alternate" href="/atom.xml" title="NexT" type="application/atom+xml">
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
@@ -62,7 +62,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+    <div class="toggle" aria-label="切换导航栏" role="button">
         <span class="toggle-line"></span>
         <span class="toggle-line"></span>
         <span class="toggle-line"></span>
@@ -76,7 +76,6 @@
       <h1 class="site-title">NexT</h1>
       <i class="logo-line"></i>
     </a>
-      <p class="site-subtitle" itemprop="description">Theme for Hexo</p>
   </div>
 
   <div class="site-nav-right">
@@ -90,7 +89,7 @@
 
 <nav class="site-nav">
   <ul class="main-menu menu">
-        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-bell fa-fw"></i>Home</a></li>
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-bell fa-fw"></i>首页</a></li>
         
             
   <li class="menu-item menu-item-docs"><a href="/docs/" rel="section"><i class="fa fa-book fa-fw"></i>Docs</a></li>
@@ -98,9 +97,10 @@
 
       
         <li class="menu-item menu-item-plugins"><a href="/plugins/" rel="section"><i class="fa fa-flask fa-fw"></i>Plugins</a></li>
-        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">58</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>博客<span class="badge">58</span></a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-fw fa-th fa-fw"></i>分类<span class="badge">0</span></a></li>
       <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
       </li>
   </ul>
@@ -115,7 +115,7 @@
   </span>
   <div class="search-input-container">
     <input autocomplete="off" autocapitalize="off" maxlength="80"
-           placeholder="Searching..." spellcheck="false"
+           placeholder="搜索..." spellcheck="false"
            type="search" class="search-input">
   </div>
   <span class="popup-btn-close" role="button">
@@ -145,10 +145,10 @@
     <div class="sidebar-inner sidebar-overview-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          站点概览
         </li>
       </ul>
 
@@ -160,17 +160,17 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Theme NexT"
+    <img class="site-author-image" itemprop="image" alt="John Doe"
       src="/images/logo.svg">
-  <p class="site-author-name" itemprop="name">Theme NexT</p>
-  <div class="site-description" itemprop="description">Stay Simple. Stay NexT.</div>
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
           <span class="site-state-item-count">58</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
   </nav>
@@ -202,7 +202,7 @@
     </header>
 
     
-  <div class="back-to-top" role="button" aria-label="Back to top">
+  <div class="back-to-top" role="button" aria-label="返回顶部">
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
@@ -228,8 +228,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -246,9 +246,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2020-08-01 01:09:14" itemprop="dateCreated datePublished" datetime="2020-08-01T01:09:14Z">2020-08-01</time>
+      <time title="创建时间：2020-08-01 01:09:14" itemprop="dateCreated datePublished" datetime="2020-08-01T01:09:14Z">2020-08-01</time>
     </span>
 
   
@@ -258,7 +258,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-8-0-0-rc-5-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-8-0-0-rc-5-released/" itemprop="commentCount"></span>
@@ -282,9 +282,33 @@
 <li>Unit testing using Mocha and Chai (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvNTk=">#59<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
 <h2 id="⭐-Features"><a href="#⭐-Features" class="headerlink" title="⭐ Features"></a>⭐ Features</h2><ul>
-<li>Remove console reminder (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC81MzNmZWE3Nzc3ZjcyNTA2M2UzZTQ1ZGUyOWEyZWExMGFhN2FkMjRh">533fea7<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-# Console reminder if new version released.</span></span><br><span class="line"><span class="deletion">-reminder: false</span></span><br></pre></td></tr></table></figure></li>
-<li>Include additional themes for prism (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC8yZTRlMWJjMTZmYTNjZDMxMWU5ZTdmOWUyNWNkZjIyOGM3ODE5ZTBi">2e4e1bc<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Extract hexo-next-three to plugins (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC8zMTI5OGQwMDNlNGUzMGNiZjZkOTA0ZWFjY2E5ZDk5YTE3MTc0MmNj">31298d0<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-# JavaScript 3D library.</span></span><br><span class="line"><span class="deletion">-# Dependencies: https://github.com/next-theme/theme-next-three</span></span><br><span class="line"><span class="deletion">-three:</span></span><br><span class="line"><span class="deletion">-  enable: false</span></span><br><span class="line"><span class="deletion">-  three_waves: false</span></span><br><span class="line"><span class="deletion">-  canvas_lines: false</span></span><br><span class="line"><span class="deletion">-  canvas_sphere: false</span></span><br><span class="line"></span><br><span class="line">vendors:</span><br><span class="line">  ...</span><br><span class="line"><span class="deletion">-  # JavaScript 3D library</span></span><br><span class="line"><span class="deletion">-  # three: //unpkg.com/three@0/build/three.min.js</span></span><br><span class="line"><span class="deletion">-  # three_waves: //cdn.jsdelivr.net/gh/next-theme/theme-next-three@1/three-waves.min.js</span></span><br><span class="line"><span class="deletion">-  # canvas_lines: //cdn.jsdelivr.net/gh/next-theme/theme-next-three@1/canvas_lines.min.js</span></span><br><span class="line"><span class="deletion">-  # canvas_sphere: //cdn.jsdelivr.net/gh/next-theme/theme-next-three@1/canvas_sphere.min.js</span></span><br><span class="line"><span class="deletion">-  three:</span></span><br><span class="line"><span class="deletion">-  three_waves:</span></span><br><span class="line"><span class="deletion">-  canvas_lines:</span></span><br><span class="line"><span class="deletion">-  canvas_sphere:</span></span><br></pre></td></tr></table></figure></li>
+<li>Remove console reminder (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC81MzNmZWE3Nzc3ZjcyNTA2M2UzZTQ1ZGUyOWEyZWExMGFhN2FkMjRh">533fea7<i class="fa fa-external-link-alt"></i></span>)<br>&#96;&#96;&#96;diff</li>
+</ul>
+<p>-# Console reminder if new version released.<br>-reminder: false</p>
+<pre><code>- Include additional themes for prism ([2e4e1bc](https://github.com/next-theme/hexo-theme-next/commit/2e4e1bc16fa3cd311e9e7f9e25cdf228c7819e0b))
+- Extract hexo-next-three to plugins ([31298d0](https://github.com/next-theme/hexo-theme-next/commit/31298d003e4e30cbf6d904eacca9d99a171742cc))
+```diff
+-# JavaScript 3D library.
+-# Dependencies: https://github.com/next-theme/theme-next-three
+-three:
+-  enable: false
+-  three_waves: false
+-  canvas_lines: false
+-  canvas_sphere: false
+
+vendors:
+  ...
+-  # JavaScript 3D library
+-  # three: //unpkg.com/three@0/build/three.min.js
+-  # three_waves: //cdn.jsdelivr.net/gh/next-theme/theme-next-three@1/three-waves.min.js
+-  # canvas_lines: //cdn.jsdelivr.net/gh/next-theme/theme-next-three@1/canvas_lines.min.js
+-  # canvas_sphere: //cdn.jsdelivr.net/gh/next-theme/theme-next-three@1/canvas_sphere.min.js
+-  three:
+-  three_waves:
+-  canvas_lines:
+-  canvas_sphere:
+</code></pre>
+<ul>
 <li>New plugin <code>@next-theme/plugins</code> (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9jYjA1ODQ4ZDExYzcxZWU1MWZiMmJiZjc0M2MyMjc2NTk1NTZkNWIx">cb05848<i class="fa fa-external-link-alt"></i></span>)</li>
 <li>Support <code>event.description</code> in schedule page (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9lMWJlYjcxZjZlZTVlZWY0MGUxZTA1YTcxNWQ0M2UyNzY2Mzc3OTUx">e1beb71<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
@@ -360,8 +384,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -378,9 +402,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2020-07-01 02:47:15" itemprop="dateCreated datePublished" datetime="2020-07-01T02:47:15Z">2020-07-01</time>
+      <time title="创建时间：2020-07-01 02:47:15" itemprop="dateCreated datePublished" datetime="2020-07-01T02:47:15Z">2020-07-01</time>
     </span>
 
   
@@ -390,7 +414,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-8-0-0-rc-4-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-8-0-0-rc-4-released/" itemprop="commentCount"></span>
@@ -408,16 +432,41 @@
     
     <div class="post-body" itemprop="articleBody">
           <h2 id="💥-Breaking-Changes"><a href="#💥-Breaking-Changes" class="headerlink" title="💥 Breaking Changes"></a>💥 Breaking Changes</h2><ul>
-<li>Add prism highlight support (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvMjM=">#23<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">codeblock:</span><br><span class="line">  ...</span><br><span class="line"><span class="addition">+  # See: https://github.com/PrismJS/prism/tree/master/themes</span></span><br><span class="line"><span class="addition">+  prism:</span></span><br><span class="line"><span class="addition">+    light: prism</span></span><br><span class="line"><span class="addition">+    dark: prism-dark</span></span><br><span class="line"></span><br><span class="line">vendors:</span><br><span class="line">  ...</span><br><span class="line"><span class="addition">+  # Prism</span></span><br><span class="line"><span class="addition">+  # prism: //cdn.jsdelivr.net/npm/prismjs@1/prism.min.js</span></span><br><span class="line"><span class="addition">+  # prism: //cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/prism.min.js</span></span><br><span class="line"><span class="addition">+  prism:</span></span><br></pre></td></tr></table></figure></li>
+<li>Add prism highlight support (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvMjM=">#23<i class="fa fa-external-link-alt"></i></span>)<br>&#96;&#96;&#96;diff<br>codeblock:<br>...</li>
+</ul>
+<ul>
+<li><h1 id="See-https-github-com-PrismJS-prism-tree-master-themes"><a href="#See-https-github-com-PrismJS-prism-tree-master-themes" class="headerlink" title="See: https://github.com/PrismJS/prism/tree/master/themes"></a>See: <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL1ByaXNtSlMvcHJpc20vdHJlZS9tYXN0ZXIvdGhlbWVz">https://github.com/PrismJS/prism/tree/master/themes<i class="fa fa-external-link-alt"></i></span></h1></li>
+<li>prism:</li>
+<li>light: prism</li>
+<li>dark: prism-dark</li>
+</ul>
+<p>vendors:<br>  ...</p>
+<ul>
+<li><h1 id="Prism"><a href="#Prism" class="headerlink" title="Prism"></a>Prism</h1></li>
+<li><h1 id="prism-x2F-x2F-cdn-jsdelivr-net-x2F-npm-x2F-prismjs-1-x2F-prism-min-js"><a href="#prism-x2F-x2F-cdn-jsdelivr-net-x2F-npm-x2F-prismjs-1-x2F-prism-min-js" class="headerlink" title="prism: &#x2F;&#x2F;cdn.jsdelivr.net&#x2F;npm&#x2F;prismjs@1&#x2F;prism.min.js"></a>prism: &#x2F;&#x2F;cdn.jsdelivr.net&#x2F;npm&#x2F;prismjs@1&#x2F;prism.min.js</h1></li>
+<li><h1 id="prism-x2F-x2F-cdnjs-cloudflare-com-x2F-ajax-x2F-libs-x2F-prism-x2F-1-20-0-x2F-prism-min-js"><a href="#prism-x2F-x2F-cdnjs-cloudflare-com-x2F-ajax-x2F-libs-x2F-prism-x2F-1-20-0-x2F-prism-min-js" class="headerlink" title="prism: &#x2F;&#x2F;cdnjs.cloudflare.com&#x2F;ajax&#x2F;libs&#x2F;prism&#x2F;1.20.0&#x2F;prism.min.js"></a>prism: &#x2F;&#x2F;cdnjs.cloudflare.com&#x2F;ajax&#x2F;libs&#x2F;prism&#x2F;1.20.0&#x2F;prism.min.js</h1></li>
+<li>prism:<br>&#96;&#96;&#96;</li>
+</ul>
+<ul>
 <li>Refactor layout (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L3B1bGwvMzE=">#31<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
 <h2 id="🌟-New-Features"><a href="#🌟-New-Features" class="headerlink" title="🌟 New Features"></a>🌟 New Features</h2><ul>
 <li>Add noscript-warning (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC82MTU5ODc0YjQwZDFiMTFmZTczMDg0N2I0MDk5ZTM3M2Y4ZWMzYmE5">6159874<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Refactor next_js to support jsdelivr &amp; unpkg (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9hZTIxYjhiOGUwMDYwM2RkMjY5MGQ5Y2IzMWY5MmRkZjJiZjc2NDdk">ae21b8b<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">vendors:</span><br><span class="line"><span class="deletion">-  # Internal path prefix.</span></span><br><span class="line"><span class="deletion">-  _internal: lib</span></span><br><span class="line"><span class="addition">+  # Available values: local, jsdelivr, unpkg</span></span><br><span class="line"><span class="addition">+  internal: local</span></span><br></pre></td></tr></table></figure></li>
+<li>Refactor next_js to support jsdelivr &amp; unpkg (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9hZTIxYjhiOGUwMDYwM2RkMjY5MGQ5Y2IzMWY5MmRkZjJiZjc2NDdk">ae21b8b<i class="fa fa-external-link-alt"></i></span>)<br>&#96;&#96;&#96;diff<br>vendors:</li>
+<li><h1 id="Internal-path-prefix"><a href="#Internal-path-prefix" class="headerlink" title="Internal path prefix."></a>Internal path prefix.</h1></li>
+<li>_internal: lib</li>
+</ul>
+<ul>
+<li><h1 id="Available-values-local-jsdelivr-unpkg"><a href="#Available-values-local-jsdelivr-unpkg" class="headerlink" title="Available values: local, jsdelivr, unpkg"></a>Available values: local, jsdelivr, unpkg</h1></li>
+<li>internal: local<br>&#96;&#96;&#96;</li>
 </ul>
 <h2 id="⭐-Features"><a href="#⭐-Features" class="headerlink" title="⭐ Features"></a>⭐ Features</h2><ul>
-<li>Optimize copy-btn: always provide feedback (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9jN2VhMWFiZTY0ZGU1NWUyYjUwMzk2NTBlY2UyMGMwYjJiMmY3MzNi">c7ea1ab<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">codeblock:</span><br><span class="line">  copy_button:</span><br><span class="line"><span class="deletion">-    # Show text copy result.</span></span><br><span class="line"><span class="deletion">-    show_result: false</span></span><br></pre></td></tr></table></figure></li>
-<li>Remove <code>sidebar.onmobile</code> option (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC81ZDJmOTJlNmI1YTllYjc3YTMzOGVhYzA4MmQxODk2OTQ1NDkwYmQz">5d2f92e<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">sidebar:</span><br><span class="line"><span class="deletion">-  # Enable sidebar on narrow view (only for Muse | Mist).</span></span><br><span class="line"><span class="deletion">-  onmobile: false</span></span><br></pre></td></tr></table></figure></li>
+<li>Optimize copy-btn: always provide feedback (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9jN2VhMWFiZTY0ZGU1NWUyYjUwMzk2NTBlY2UyMGMwYjJiMmY3MzNi">c7ea1ab<i class="fa fa-external-link-alt"></i></span>)<br>&#96;&#96;&#96;diff<br>codeblock:<br>  copy_button:</li>
+<li><h1 id="Show-text-copy-result"><a href="#Show-text-copy-result" class="headerlink" title="Show text copy result."></a>Show text copy result.</h1></li>
+<li>show_result: false<br>&#96;&#96;&#96;</li>
+<li>Remove <code>sidebar.onmobile</code> option (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC81ZDJmOTJlNmI1YTllYjc3YTMzOGVhYzA4MmQxODk2OTQ1NDkwYmQz">5d2f92e<i class="fa fa-external-link-alt"></i></span>)<br>&#96;&#96;&#96;diff<br>sidebar:</li>
+<li><h1 id="Enable-sidebar-on-narrow-view-only-for-Muse-Mist"><a href="#Enable-sidebar-on-narrow-view-only-for-Muse-Mist" class="headerlink" title="Enable sidebar on narrow view (only for Muse | Mist)."></a>Enable sidebar on narrow view (only for Muse | Mist).</h1></li>
+<li>onmobile: false<br>&#96;&#96;&#96;</li>
 <li>Refactor motion (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9iMzliYTE4NmQ5MGYxZTE5OGRlMjI3NmFkYTUxNWNkYTE2MTkxOGFh">b39ba18<i class="fa fa-external-link-alt"></i></span>)</li>
 </ul>
 <h2 id="🐞-Bug-Fixes"><a href="#🐞-Bug-Fixes" class="headerlink" title="🐞 Bug Fixes"></a>🐞 Bug Fixes</h2><ul>
@@ -500,8 +549,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -518,9 +567,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2020-06-01 03:33:43" itemprop="dateCreated datePublished" datetime="2020-06-01T03:33:43Z">2020-06-01</time>
+      <time title="创建时间：2020-06-01 03:33:43" itemprop="dateCreated datePublished" datetime="2020-06-01T03:33:43Z">2020-06-01</time>
     </span>
 
   
@@ -530,7 +579,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-8-0-0-rc-3-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-8-0-0-rc-3-released/" itemprop="commentCount"></span>
@@ -548,8 +597,21 @@
     
     <div class="post-body" itemprop="articleBody">
           <h2 id="💥-Breaking-Changes"><a href="#💥-Breaking-Changes" class="headerlink" title="💥 Breaking Changes"></a>💥 Breaking Changes</h2><ul>
-<li>Fix darkmode tag-cloud color (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9jYmNkM2YwNGFiZmJjMTVjODJmMWNmNDMwZWNhMTU1OTEwMTVmYWRj">cbcd3f0<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"># TagCloud settings for tags page.</span><br><span class="line">tagcloud:</span><br><span class="line"><span class="deletion">-  # All values below are same as default, change them by yourself.</span></span><br><span class="line">  min: 12 # Minimum font size in px</span><br><span class="line">  max: 30 # Maximum font size in px</span><br><span class="line"><span class="deletion">-  start: &quot;#ccc&quot; # Start color (hex, rgba, hsla or color keywords)</span></span><br><span class="line"><span class="deletion">-  end: &quot;#111&quot; # End color (hex, rgba, hsla or color keywords)</span></span><br><span class="line"><span class="deletion">-  amount: 200 # Amount of tags, change it if you have more than 200 tags</span></span><br><span class="line"><span class="addition">+  amount: 200 # Total amount of tags</span></span><br><span class="line"><span class="addition">+  orderby: name # Order of tags</span></span><br><span class="line"><span class="addition">+  order: 1 # Sort order</span></span><br></pre></td></tr></table></figure></li>
-<li>Update Valine CDN URL (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC8zOTAwNThlOGExMThmMDhhNjJlNzAzNTBkMGI2ZmNiYWIxZjMzYzUz">390058e<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">valine:</span><br><span class="line">  ...</span><br><span class="line"><span class="deletion">-  notify: false # Mail notifier</span></span><br><span class="line"><span class="deletion">-  verify: false # Verification code</span></span><br></pre></td></tr></table></figure></li>
+<li>Fix darkmode tag-cloud color (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9jYmNkM2YwNGFiZmJjMTVjODJmMWNmNDMwZWNhMTU1OTEwMTVmYWRj">cbcd3f0<i class="fa fa-external-link-alt"></i></span>)<br>&#96;&#96;&#96;diff<h1 id="TagCloud-settings-for-tags-page"><a href="#TagCloud-settings-for-tags-page" class="headerlink" title="TagCloud settings for tags page."></a>TagCloud settings for tags page.</h1>tagcloud:</li>
+<li><h1 id="All-values-below-are-same-as-default-change-them-by-yourself"><a href="#All-values-below-are-same-as-default-change-them-by-yourself" class="headerlink" title="All values below are same as default, change them by yourself."></a>All values below are same as default, change them by yourself.</h1>  min: 12 # Minimum font size in px<br>  max: 30 # Maximum font size in px</li>
+<li>start: &quot;#ccc&quot; # Start color (hex, rgba, hsla or color keywords)</li>
+<li>end: &quot;#111&quot; # End color (hex, rgba, hsla or color keywords)</li>
+<li>amount: 200 # Amount of tags, change it if you have more than 200 tags</li>
+</ul>
+<ul>
+<li>amount: 200 # Total amount of tags</li>
+<li>orderby: name # Order of tags</li>
+<li>order: 1 # Sort order<br>&#96;&#96;&#96;</li>
+</ul>
+<ul>
+<li>Update Valine CDN URL (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC8zOTAwNThlOGExMThmMDhhNjJlNzAzNTBkMGI2ZmNiYWIxZjMzYzUz">390058e<i class="fa fa-external-link-alt"></i></span>)<br>&#96;&#96;&#96;diff<br>valine:<br>...</li>
+<li>notify: false # Mail notifier</li>
+<li>verify: false # Verification code<br>&#96;&#96;&#96;</li>
 </ul>
 <h2 id="🐞-Bug-Fixes"><a href="#🐞-Bug-Fixes" class="headerlink" title="🐞 Bug Fixes"></a>🐞 Bug Fixes</h2><ul>
 <li>Some minor fixes (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9iZjM2NjZmZDE5YWM0NTA1M2RjNzlhZDFlNGE1M2NmZTk0YzYwOTY2">bf3666f<i class="fa fa-external-link-alt"></i></span>)</li>
@@ -607,8 +669,8 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/logo.svg">
-      <meta itemprop="name" content="Theme NexT">
-      <meta itemprop="description" content="Stay Simple. Stay NexT.">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -625,9 +687,9 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Posted on</span>
+      <span class="post-meta-item-text">发表于</span>
 
-      <time title="Created: 2020-05-09 02:13:37" itemprop="dateCreated datePublished" datetime="2020-05-09T02:13:37Z">2020-05-09</time>
+      <time title="创建时间：2020-05-09 02:13:37" itemprop="dateCreated datePublished" datetime="2020-05-09T02:13:37Z">2020-05-09</time>
     </span>
 
   
@@ -637,7 +699,7 @@
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus: </span>
+      <span class="post-meta-item-text">Disqus：</span>
     
     <a title="disqus" href="/next-8-0-0-rc-2-released/#disqus_thread" itemprop="discussionUrl">
       <span class="post-comments-count disqus-comment-count" data-disqus-identifier="next-8-0-0-rc-2-released/" itemprop="commentCount"></span>
@@ -655,10 +717,61 @@
     
     <div class="post-body" itemprop="articleBody">
           <h2 id="💥-Breaking-Changes"><a href="#💥-Breaking-Changes" class="headerlink" title="💥 Breaking Changes"></a>💥 Breaking Changes</h2><ul>
-<li>Allow empty menu items (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9hNTI3YmZkZjExZDU1OGZmZDk1OGNkMGEwYjA1NDE2ZmIxY2FhYTMz">a527bfd<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-override: false</span></span><br><span class="line"></span><br><span class="line">menu:</span><br><span class="line"><span class="deletion">-  home: / || fa fa-home</span></span><br><span class="line"><span class="addition">+  #home: / || fa fa-home</span></span><br><span class="line">  #about: /about/ || fa fa-user</span><br><span class="line">  #tags: /tags/ || fa fa-tags</span><br><span class="line">  #categories: /categories/ || fa fa-th</span><br><span class="line"><span class="deletion">-  archives: /archives/ || fa fa-archive</span></span><br><span class="line"><span class="addition">+  #archives: /archives/ || fa fa-archive</span></span><br><span class="line">  #schedule: /schedule/ || fa fa-calendar</span><br><span class="line">  #sitemap: /sitemap.xml || fa fa-sitemap</span><br><span class="line">  #commonweal: /404/ || fa fa-heartbeat</span><br></pre></td></tr></table></figure></li>
-<li>Update options of Valine (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC82ZTZmYzc0YWU5OGEwZWY3YWEzYWVhYmEzZTMzMGVmNzM1Njk4Yjdi">6e6fc74<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">valine:</span><br><span class="line"><span class="deletion">-  appid: # Your leancloud application appid</span></span><br><span class="line"><span class="deletion">-  appkey: # Your leancloud application appkey</span></span><br><span class="line"><span class="addition">+  appId: # Your leancloud application appid</span></span><br><span class="line"><span class="addition">+  appKey: # Your leancloud application appkey</span></span><br><span class="line">  ...</span><br><span class="line"><span class="deletion">-  guest_info: nick,mail,link # Custom comment header</span></span><br><span class="line"><span class="addition">+  meta: # Custom comment header</span></span><br><span class="line"><span class="addition">+    - nick</span></span><br><span class="line"><span class="addition">+    - mail</span></span><br><span class="line"><span class="addition">+    - link</span></span><br></pre></td></tr></table></figure></li>
+<li>Allow empty menu items (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9hNTI3YmZkZjExZDU1OGZmZDk1OGNkMGEwYjA1NDE2ZmIxY2FhYTMz">a527bfd<i class="fa fa-external-link-alt"></i></span>)<br>&#96;&#96;&#96;diff</li>
+</ul>
+<p>-override: false</p>
+<p>menu:</p>
+<ul>
+<li>home: &#x2F; || fa fa-home</li>
+</ul>
+<ul>
+<li>#home: &#x2F; || fa fa-home<br>  #about: &#x2F;about&#x2F; || fa fa-user<br>  #tags: &#x2F;tags&#x2F; || fa fa-tags<br>  #categories: &#x2F;categories&#x2F; || fa fa-th</li>
+</ul>
+<ul>
+<li>archives: &#x2F;archives&#x2F; || fa fa-archive</li>
+</ul>
+<ul>
+<li>#archives: &#x2F;archives&#x2F; || fa fa-archive<br>  #schedule: &#x2F;schedule&#x2F; || fa fa-calendar<br>  #sitemap: &#x2F;sitemap.xml || fa fa-sitemap<br>  #commonweal: &#x2F;404&#x2F; || fa fa-heartbeat<br>&#96;&#96;&#96;</li>
+</ul>
+<ul>
+<li>Update options of Valine (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC82ZTZmYzc0YWU5OGEwZWY3YWEzYWVhYmEzZTMzMGVmNzM1Njk4Yjdi">6e6fc74<i class="fa fa-external-link-alt"></i></span>)<br>&#96;&#96;&#96;diff<br>valine:</li>
+<li>appid: # Your leancloud application appid</li>
+<li>appkey: # Your leancloud application appkey</li>
+</ul>
+<ul>
+<li>appId: # Your leancloud application appid</li>
+<li>appKey: # Your leancloud application appkey<br>  ...</li>
+</ul>
+<ul>
+<li>guest_info: nick,mail,link # Custom comment header</li>
+</ul>
+<ul>
+<li>meta: # Custom comment header</li>
+<li><ul>
+<li>nick</li>
+</ul>
+</li>
+<li><ul>
+<li>mail</li>
+</ul>
+</li>
+<li><ul>
+<li>link<br>&#96;&#96;&#96;</li>
+</ul>
+</li>
+</ul>
+<ul>
 <li>Support using highlight.js (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC85ZmRhYmEyOTVhMmM2YzcwN2E3ZDk2ZDMzMTc2MmFiNTcxYjg5YzFh">9fdaba2<i class="fa fa-external-link-alt"></i></span>)</li>
-<li>Allow different highlight style for dark mode (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC8wM2U1MGQwMWFjNTlkMTM2ZDhkOWNjZGExODdkODk4YzBlNDI0MzMy">03e50d0<i class="fa fa-external-link-alt"></i></span>)<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">codeblock:</span><br><span class="line">  ...</span><br><span class="line"><span class="deletion">-  # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic</span></span><br><span class="line"><span class="deletion">-  # See: https://github.com/chriskempson/tomorrow-theme</span></span><br><span class="line"><span class="deletion">-  highlight_theme: normal</span></span><br><span class="line"><span class="addition">+  # See: https://github.com/highlightjs/highlight.js/tree/master/src/styles</span></span><br><span class="line"><span class="addition">+  theme:</span></span><br><span class="line"><span class="addition">+    light: default</span></span><br><span class="line"><span class="addition">+    dark: dark</span></span><br></pre></td></tr></table></figure></li>
+<li>Allow different highlight style for dark mode (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC8wM2U1MGQwMWFjNTlkMTM2ZDhkOWNjZGExODdkODk4YzBlNDI0MzMy">03e50d0<i class="fa fa-external-link-alt"></i></span>)<br>&#96;&#96;&#96;diff<br>codeblock:<br>...</li>
+<li><h1 id="Available-values-normal-night-night-eighties-night-blue-night-bright-solarized-solarized-dark-galactic"><a href="#Available-values-normal-night-night-eighties-night-blue-night-bright-solarized-solarized-dark-galactic" class="headerlink" title="Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic"></a>Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic</h1></li>
+<li><h1 id="See-https-github-com-chriskempson-tomorrow-theme"><a href="#See-https-github-com-chriskempson-tomorrow-theme" class="headerlink" title="See: https://github.com/chriskempson/tomorrow-theme"></a>See: <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2Nocmlza2VtcHNvbi90b21vcnJvdy10aGVtZQ==">https://github.com/chriskempson/tomorrow-theme<i class="fa fa-external-link-alt"></i></span></h1></li>
+<li>highlight_theme: normal</li>
+</ul>
+<ul>
+<li><h1 id="See-https-github-com-highlightjs-highlight-js-tree-master-src-styles"><a href="#See-https-github-com-highlightjs-highlight-js-tree-master-src-styles" class="headerlink" title="See: https://github.com/highlightjs/highlight.js/tree/master/src/styles"></a>See: <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hpZ2hsaWdodGpzL2hpZ2hsaWdodC5qcy90cmVlL21hc3Rlci9zcmMvc3R5bGVz">https://github.com/highlightjs/highlight.js/tree/master/src/styles<i class="fa fa-external-link-alt"></i></span></h1></li>
+<li>theme:</li>
+<li>light: default</li>
+<li>dark: dark<br>&#96;&#96;&#96;</li>
 </ul>
 <h2 id="🐞-Bug-Fixes"><a href="#🐞-Bug-Fixes" class="headerlink" title="🐞 Bug Fixes"></a>🐞 Bug Fixes</h2><ul>
 <li>Fix: bind DOMContentLoaded event on document instead of window (<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25leHQtdGhlbWUvaGV4by10aGVtZS1uZXh0L2NvbW1pdC9jZDVlNTQxOTNiY2JlY2Q0NzcwMGJmMmM5OGM0ZDRiMmJjNzM1ODg5">cd5e541<i class="fa fa-external-link-alt"></i></span>)</li>
@@ -699,7 +812,7 @@
 
 
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/5/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><span class="page-number current">6</span><a class="page-number" href="/page/7/">7</a><span class="space">&hellip;</span><a class="page-number" href="/page/15/">15</a><a class="extend next" rel="next" href="/page/7/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+    <a class="extend prev" rel="prev" href="/page/5/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><span class="page-number current">6</span><a class="page-number" href="/page/7/">7</a><span class="space">&hellip;</span><a class="page-number" href="/page/15/">15</a><a class="extend next" rel="next" href="/page/7/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 </div>
@@ -717,11 +830,12 @@
   </span>
   <span class="author" itemprop="copyrightHolder">NexT</span>
 </div>
-  <div class="powered-by">Powered by <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <a href="https://theme-next.js.org/">NexT.Gemini</a>
+  <div class="powered-by">由 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <a href="https://theme-next.js.org/">NexT.Gemini</a> 强力驱动
   </div><div class="footer-custom">
-Website source code <span class="exturl theme-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG8tbmV4dC9oZXhvLW5leHQuZ2l0aHViLmlv">here</span>
+  <div class="powered-by">由 <a href="https://github.com/next-theme/theme-next-docs" class="theme-link" rel="noopener" target="_blank">Hexo</a> v8.0.0 驱动</div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://github.com/next-theme/hexo-theme-next" class="theme-link" rel="noopener" target="_blank">Hexo.NexT</a> v8.0.0</div>
 </div>
-
 
     </div>
   </footer>
